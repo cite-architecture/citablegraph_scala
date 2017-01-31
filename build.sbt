@@ -16,6 +16,9 @@ libraryDependencies += "edu.holycross.shot" %% "ohco2" % "2.1.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" %  "test"
 libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
 
+libraryDependencies += "org.scala-graph" %% "graph-core" % "1.11.4"
+
+
 publishTo := Some("Sonatype Snapshots Nexus" at "http://beta.hpcc.uh.edu/nexus/content/repositories/releases/")
 
 credentials += Credentials(Path.userHome / "nexusauth.txt" )

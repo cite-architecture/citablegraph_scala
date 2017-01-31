@@ -10,11 +10,17 @@ class CGServiceSpec extends FlatSpec {
 
   "A CGService" should "have a serviceUrl" in pending
 
-  it should "offer a constructor signature for instantiating a collection of graphs from a delimited text file" in pending
+	it should "include a service-URL to CTS and CITE services" in pending
+	it should "construct a CGrS Corpus on startup" in pending
+	it should "access the catalogues of associated CITE and CTS libraries on startup" in pending
 
-	it should "offer a method for listing all CitableGraphs containing a URN" in pending
-	it should "offer a method for identifying 'edge equality'" in pending
-	it should "offer a method for identifying 'vertex equality'" in pending
+	it should "accept a CITE2 URN and output a JSON transformation" in pending
+	it should "accept a CITE2 URN and output a .dot transformation" in pending
+	it should "accept a CITE2 URN and output a 1-page D3 HTML representation" in pending
+
+	it should "offer access to the methods of the CGrS Corpus" in pending
+
+
 
 
 }
