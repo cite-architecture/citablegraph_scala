@@ -18,6 +18,12 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
 
 libraryDependencies += "org.scala-graph" %% "graph-core" % "1.11.4"
 
+libraryDependencies +=  "org.pegdown"    %  "pegdown"     % "1.6.0"  % "test"
+
+logBuffered in Test := false
+
+
+testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.ScalaTest, "-oIDS"), Tests.Argument(TestFrameworks.ScalaTest, "-hIS", "target/test-reports"))
 
 publishTo := Some("Sonatype Snapshots Nexus" at "http://beta.hpcc.uh.edu/nexus/content/repositories/releases/")
 

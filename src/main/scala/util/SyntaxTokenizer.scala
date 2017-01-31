@@ -3,13 +3,11 @@ package util
 
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
-
+import java.io._
 import scala.io.Source
 import scala.collection.mutable.ArrayBuffer
 
 case class SyntaxTokenizer(collectionArray: Array[String]) {
-
-	private val anExempComponent = "syntaxExemplar"
 
 	// for accessing records in a collectionArray line
 	private val COLLURN = 0
@@ -20,11 +18,37 @@ case class SyntaxTokenizer(collectionArray: Array[String]) {
 	private val DISCOURSE = 5
 
 
-	// creates, as an Array, a 2-column CTS Analytical Exemplar
-	def toAnalyticalExemplar: Array[String] = {
-		val dummyArray = Array("aaa","bbb")
-		dummyArray
+	// Outputs a four-column ORCA alignment file, for use with the CITE 'orca' package
+    //	ORCA_URN \t AnalyzedText \t Analysis \t textDeformation
+	def toOrcaFile(orcaUrn: String): Array[String] = {
+		//var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
+		val v1 = collectionArray.map( l => ( l.split("\t")(ANALYZEDTEXT), l.split("\t")(DEFORMATION), l.split("\t")(TOKENTYPE)))
+		val v2 = v1.zipWithIndex.map(l => ( (l._1._1), (l._1._2), (l._1._3), (s"${orcaUrn}${l._2}") ))
+		val v3 = v2.map(l => s"${l._4}\t${l._1}\t${l._2}\t${l._3}" )
+		v3
 	}
+
+	// writes collectionArray to a file
+	def writeCollection(filename: String, directory: String) {
+		val d: java.io.File = checkDirectory(directory)
+		val f = new File(s"${directory}/${filename}")
+		var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
+		tempArray += "Urn\tAnalyzedText\tTokenType\tTextDeformation\tEditorialStatus\tDiscourseLevel\tSequence"
+		for (i <- 0 until collectionArray.size){
+			tempArray += s"${collectionArray(1)}\t${i}"
+		}
+		writeTextFile(tempArray.toArray, f)
+	}
+
+	// all-purpose method for outputting an array of Strings to a file
+    def writeTextFile(a: Array[String], f: File) {
+      val pw = new PrintWriter(f)
+      for (l <- a) { pw.write(l); pw.write("\n") }
+      pw.close
+    }
+
+
+	/* PRIVATE METHODS */
 
 	//split a collectionArray line into an array
 	private def splitLine(l: String): Array[String] = {
@@ -32,7 +56,18 @@ case class SyntaxTokenizer(collectionArray: Array[String]) {
 		fieldArray
 	}
 
-}
+	private def checkDirectory(d: String): java.io.File = {
+		val dir: File = new File(d)
+		if ( dir.exists() != true ){
+			dir.mkdir()
+			dir
+		} else {
+			dir
+		}
+	}
+
+
+} // END CLASS DEFINITION
 
 
 // The tedious work of constructing below…
@@ -90,8 +125,6 @@ object SyntaxTokenizer {
 			var nestedElements: String = ""
 
 			var tempSyntaxArray =  scala.collection.mutable.ArrayBuffer[String]()
-			tempSyntaxArray  += "CollectionUrn\tAnalyzedText\tTokenType\tTextDeformation\tEditorialStatus\tDiscourseLevel"
-
 
 			for ( sp <- stringPairs){
 
