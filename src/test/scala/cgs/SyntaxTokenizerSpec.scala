@@ -79,7 +79,12 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 			val outputfile = "0016_0001_perseus"
 			val outputdir = "target/testOutput"
 			val st = SyntaxTokenizer("filesystem",inputf,cus)
-			assert (false)
+			val testStart = st.collectionArray(0).split("\t")(3)
+			val lastLine = st.collectionArray.size - 2
+			val ll = st.collectionArray(lastLine).split("\t")
+			val penultToken = ll(3)
+			assert (testStart == "Ἡροδότου")
+			assert (penultToken == "δουλεύειν")
 	}
 
 	it should "be able to catch tokens of type 'other'" in {
@@ -88,7 +93,8 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 			val outputfile = "0012_0001_allen"
 			val outputdir = "target/testOutput"
 			val st = SyntaxTokenizer("filesystem",inputf,cus)
-			assert (false)
+			val testToken = st.collectionArray(5).split("\t")(2)
+			assert (testToken == "urn:cite2:fufolio:tokenTypes.v1:other")
 	}
 
 	// Specific details (will parameterize)
