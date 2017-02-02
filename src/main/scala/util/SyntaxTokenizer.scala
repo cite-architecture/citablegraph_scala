@@ -152,12 +152,12 @@ object SyntaxTokenizer {
 	// the map is: text, nestedElements
 	def textSwitcher(t:String, ne: String) : Array[Tuple2[String, String]] = {
 		var ma =  scala.collection.mutable.ArrayBuffer[Tuple2[String, String]]()
-	  try{
+	  try {
 				val x = scala.xml.XML.loadString(t)
 				for( nn <- processXmlText(x, ne)){
 						ma += nn
 				}
-		} catch{
+		} catch {
 			case _: org.xml.sax.SAXParseException =>
 				for( nn <- processText(t, ne)){
 					ma += nn
@@ -267,12 +267,20 @@ object SyntaxTokenizer {
 
 
  def acquireTextAndCitations(source: String, fileLoc: String) = {
-	 source match {
-		 case "filesystem" => {
-			val tabFields = Source.fromFile(fileLoc).getLines.toVector.map(_.split(separator))
-	    tabFields
+	 try {
+		 source match {
+			 case "filesystem" => {
+				val tabFields = Source.fromFile(fileLoc).getLines.toVector.map(_.split(separator))
+		    tabFields
+			 }
+			 case "URL" => {
+				 val tabFields = Source.fromURL(fileLoc).getLines.toVector.map(_.split(separator))
+				 tabFields
+			 }
+			 case _ => throw new IllegalArgumentException(s"Parameter 'source' must be 'filesystem' or 'url'. (${source})")
 		 }
-		 case _ => throw new IllegalArgumentException(s"Parameter 'source' must be 'filesystem'. (${source})")
+	 } catch {
+		 case e: Throwable => throw new Exception(s"${e}") 
 	 }
  }
 
