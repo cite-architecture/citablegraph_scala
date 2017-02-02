@@ -36,7 +36,6 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 	}
 
 	it should "have a private method to create an array of field-records from a line" in {
-
 			val s = """urn:cite2:fufolio:syntaxToken.v1:0007_0012_0	urn:cts:greekLit:tlg0007.tlg012.ziegler:0.title@ΠΕΡΙΚΛΗΣ[1]	urn:cite2:fufolio:tokenTypes.v1:word	ΠΕΡΙΚΛΗΣ	urn:cite2:fufolio:editorialStatus.v1:default	urn:cite2:fufolio:tokdiscourse.v1:direct"""
 
  			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
@@ -48,42 +47,49 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 			val aa = st invokePrivate splitLine(s)
 			//val result = st.splitLine(s)
 			assert (aa.size == 6)
-
 	}
 
-	it should "have a private method to check for a specified output directory" in {
 
-			val s = """urn:cite2:fufolio:syntaxToken.v1:0007_0012_0	urn:cts:greekLit:tlg0007.tlg012.ziegler:0.title@ΠΕΡΙΚΛΗΣ[1]	urn:cite2:fufolio:tokenTypes.v1:word	ΠΕΡΙΚΛΗΣ	urn:cite2:fufolio:editorialStatus.v1:default	urn:cite2:fufolio:tokdiscourse.v1:direct"""
-
- 			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
-			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
-			val outDir = "target/testOutput"
-			val st = SyntaxTokenizer("filesystem",f,cus)
-
-			val checkDirectory = PrivateMethod[java.io.File]('checkDirectory)
-			val dir: java.io.File = st invokePrivate checkDirectory(outDir)
-			dir should exist
-			dir shouldBe writable
-	}
-
-	it should "be able to write collectionArray to a file" in {
- 			val inputf = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
-			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
-			val outputfile = "0007_0012_tokenCollection.tsv"
-			val outputdir = "target/testOutput"
-			val st = SyntaxTokenizer("filesystem",inputf,cus)
-			st.writeCollection(outputfile, outputdir)
-	}
-
-	it should "be able to produce a 4-column ORCA algignment" in {
-			val inputf = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
-			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
+	it should "be able to produce a 4-column ORCA alignment" in {
+			val inputf = "src/test/resources/pericles-short-tab.txt"
+			val cus = "ur:cite2:fufolio:syntaxToken-shortTest.v1:"
 			val oUrn = "urn:cite2:fufolio:stOrca.v1:0007_0012_"
 			val st = SyntaxTokenizer("filesystem",inputf,cus)
-			val orca = st.toOrcaFile(oUrn)
+			val orca = st.makeOrcaCollection(oUrn)
+			assert ( orca(21).split("\t")(4) == "τὸ" )
 	}
 
+	it should "be able to process a lengthy file, like Plutarch's Pericles" in {
+ 			val inputf = "src/test/resources/pericles-tab.txt"
+			val cus = "urn:cite2:fufolio:syntaxToken0007_0012.v1:"
+			val outputfile = "0007_0012_ziegler"
+			val outputdir = "target/testOutput"
+			val st = SyntaxTokenizer("filesystem",inputf,cus)
+			val testStart = st.collectionArray(0).split("\t")(3)
+			val lastLine = st.collectionArray.size - 2
+			val ll = st.collectionArray(lastLine).split("\t")
+			val penultToken = ll(3)
+			assert (testStart == "ΠΕΡΙΚΛΗΣ")
+			assert (penultToken == "γενέσθαι")
+	}
 
+	it should "be able to process a REALLY lengthy file, like Herodotus" in {
+ 			val inputf = "src/test/resources/herodotus-tab.txt"
+			val cus = "urn:cite2:fufolio:syntaxToken0016_0001.v1:"
+			val outputfile = "0016_0001_perseus"
+			val outputdir = "target/testOutput"
+			val st = SyntaxTokenizer("filesystem",inputf,cus)
+			assert (false)
+	}
+
+	it should "be able to catch tokens of type 'other'" in {
+ 			val inputf = "src/test/resources/Allen-Iliad.txt"
+			val cus = "urn:cite2:fufolio:syntaxToken0012_0001.v1:"
+			val outputfile = "0012_0001_allen"
+			val outputdir = "target/testOutput"
+			val st = SyntaxTokenizer("filesystem",inputf,cus)
+			assert (false)
+	}
 
 	// Specific details (will parameterize)
 	//val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-tab.txt"

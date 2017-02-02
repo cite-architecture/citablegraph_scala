@@ -16,37 +16,25 @@ case class SyntaxTokenizer(collectionArray: Array[String]) {
 	private val DEFORMATION = 3
 	private val EDSTATUS = 4
 	private val DISCOURSE = 5
-
+	private val EXEMPLARURN = 6
 
 	// Outputs a four-column ORCA alignment file, for use with the CITE 'orca' package
-    //	ORCA_URN \t AnalyzedText \t Analysis \t textDeformation
-	def toOrcaFile(orcaUrn: String): Array[String] = {
+  //	ORCA_URN \t AnalyzedText \t Analysis \t textDeformation
+	def makeOrcaCollection(orcaUrn: String): Array[String] = {
 		//var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
-		val v1 = collectionArray.map( l => ( l.split("\t")(ANALYZEDTEXT), l.split("\t")(DEFORMATION), l.split("\t")(TOKENTYPE)))
-		val v2 = v1.zipWithIndex.map(l => ( (l._1._1), (l._1._2), (l._1._3), (s"${orcaUrn}${l._2}") ))
-		val v3 = v2.map(l => s"${l._4}\t${l._1}\t${l._2}\t${l._3}" )
-		v3
+		val v1 = collectionArray.map( l => ( l.split("\t")(ANALYZEDTEXT), l.split("\t")(EXEMPLARURN),l.split("\t")(TOKENTYPE), l.split("\t")(DEFORMATION)))
+		val v2 = v1.zipWithIndex.map(l => ( (l._1._1), (l._1._2), (l._1._3), (l._1._4), (s"${orcaUrn}${l._2}"), (s"${l._2}" ) ))
+		val v3 = v2.map(l => s"${l._5}\t${l._1}\t${l._2}\t${l._3}\t${l._4}\t${l._6}" )
+		val vHead = Array("ORCA_URN\tAnalyzedText\tExemplarUrn\tAnalysis\tTextDeformation\tSequence")
+		val v4 = vHead ++ v3
+		v4
 	}
 
-	// writes collectionArray to a file
-	def writeCollection(filename: String, directory: String) {
-		val d: java.io.File = checkDirectory(directory)
-		val f = new File(s"${directory}/${filename}")
-		var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
-		tempArray += "Urn\tAnalyzedText\tTokenType\tTextDeformation\tEditorialStatus\tDiscourseLevel\tSequence"
-		for (i <- 0 until collectionArray.size){
-			tempArray += s"${collectionArray(1)}\t${i}"
-		}
-		writeTextFile(tempArray.toArray, f)
+	// Make array of strings, with a '#' delimiter: urn#text
+	def makeCts2ColText: Array[String] = {
+		val v1 = collectionArray.map( l => (s"""${l.split("\t")(EXEMPLARURN)}#${l.split("\t")(DEFORMATION)}"""))
+		v1
 	}
-
-	// all-purpose method for outputting an array of Strings to a file
-    def writeTextFile(a: Array[String], f: File) {
-      val pw = new PrintWriter(f)
-      for (l <- a) { pw.write(l); pw.write("\n") }
-      pw.close
-    }
-
 
 	/* PRIVATE METHODS */
 
@@ -54,16 +42,6 @@ case class SyntaxTokenizer(collectionArray: Array[String]) {
 	private def splitLine(l: String): Array[String] = {
 		val fieldArray = l.split('\t')
 		fieldArray
-	}
-
-	private def checkDirectory(d: String): java.io.File = {
-		val dir: File = new File(d)
-		if ( dir.exists() != true ){
-			dir.mkdir()
-			dir
-		} else {
-			dir
-		}
 	}
 
 
@@ -80,7 +58,8 @@ object SyntaxTokenizer {
 		private val tokenTypeMap = Map(
 				"word" -> "urn:cite2:fufolio:tokenTypes.v1:word",
 				"multifunction" -> "urn:cite2:fufolio:tokenTypes.v1:multifunction",
-				"punc" -> "urn:cite2:fufolio:tokenTypes.v1:punc"
+				"punc" -> "urn:cite2:fufolio:tokenTypes.v1:punc",
+				"other" -> "urn:cite2:fufolio:tokenTypes.v1:other"
 		)
 		// Editorial Status
 		// 		A map of Tuple3: URN, prefix-text, postfix-text. Allows 'markup' of textDeformations
@@ -110,6 +89,8 @@ object SyntaxTokenizer {
 			"εἴτε" -> ("εἴ","τε")
 		)
 
+		private val nonCharacters = "{※}⸖<>-—–—()[]"
+
 		private val delimiters : scala.util.matching.Regex = """([.,;?·])""".r
 		private val punctuation = """.,;\"'?·"""
 
@@ -127,6 +108,7 @@ object SyntaxTokenizer {
 			var tempSyntaxArray =  scala.collection.mutable.ArrayBuffer[String]()
 
 			for ( sp <- stringPairs){
+
 
 				thisEdUrn = sp("urn")
 				thisText = sp("text")
@@ -223,19 +205,27 @@ object SyntaxTokenizer {
 				case Some(mfmatch) =>  {
 					val defText1 = mfmatch._1
 					val defText2 = mfmatch._2
+
+					val aaUrn1 = makeExemplarUrn(tt._1, s"${i+1}a")
+					val aaUrn2 = makeExemplarUrn(tt._1, s"${i+1}b")
+
 					tokenType = tokenTypeMap("multifunction")
 					// Make 2 strings 【】
-						val s1 = s"${collectionUrnString}${i}a\t${tt._1}\t${tokenType}\t【${defText1}】${defText2}\t${edStatus}\t${discourseLevel}"
+						val s1 = s"${collectionUrnString}${i}a\t${tt._1}\t${tokenType}\t【${defText1}】${defText2}\t${edStatus}\t${discourseLevel}\t${aaUrn1}"
 						returnArray += s1
-						val s2 = s"${collectionUrnString}${i}b\t${tt._1}\t${tokenType}\t${defText1}【${defText2}】\t${edStatus}\t${discourseLevel}"
+						val s2 = s"${collectionUrnString}${i}b\t${tt._1}\t${tokenType}\t${defText1}【${defText2}】\t${edStatus}\t${discourseLevel}\t${aaUrn2}"
 						returnArray += s2
 				}
 				case None => {
 						tokenType = tokenTypeMap("word")
+						val aaUrn = makeExemplarUrn(tt._1, s"${i+1}")
+						// test for punctation
 						for (c <- punctuation) if (c.toString == greekString) tokenType = tokenTypeMap("punc")
+						// test for token-type 'other'
+						for (cOther <- nonCharacters; cTest <- greekString) if (cOther == cTest) tokenType = tokenTypeMap("other")
 						// Make 1 string
 						// ORCA_URN	AnalyzedText	Analysis	textDeformation editorialStatus	discourceLevel
-						val s = s"${collectionUrnString}${i}\t${tt._1}\t${tokenType}\t${greekString}\t${edStatus}\t${discourseLevel}"
+						val s = s"${collectionUrnString}${i}\t${tt._1}\t${tokenType}\t${greekString}\t${edStatus}\t${discourseLevel}\t${aaUrn}"
 						returnArray += s
 				}
 			}
@@ -284,8 +274,14 @@ object SyntaxTokenizer {
 		 }
 		 case _ => throw new IllegalArgumentException(s"Parameter 'source' must be 'filesystem'. (${source})")
 	 }
+ }
 
-
+ def makeExemplarUrn(urnStr: String, citationValue: String):String = {
+	 val edUrn = CtsUrn(urnStr)
+	 val woPassage = edUrn.dropPassage.toString.dropRight(1)
+	 val passageComp = edUrn.passageComponent.split("@")(0)
+	 var exemplarUrnString= s"${woPassage}.syntaxToken:${passageComp}.${citationValue}"
+	 exemplarUrnString
  }
 
 }
