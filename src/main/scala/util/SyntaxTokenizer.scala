@@ -20,14 +20,18 @@ case class SyntaxTokenizer(collectionArray: Array[String]) {
 
 	// Outputs a four-column ORCA alignment file, for use with the CITE 'orca' package
   //	ORCA_URN \t AnalyzedText \t Analysis \t textDeformation
-	def makeOrcaCollection(orcaUrn: String): Array[String] = {
+	def makeOrcaCollection(orcaUrn: String, includeHeader: Boolean = true): Array[String] = {
 		//var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
 		val v1 = collectionArray.map( l => ( l.split("\t")(ANALYZEDTEXT), l.split("\t")(EXEMPLARURN),l.split("\t")(TOKENTYPE), l.split("\t")(DEFORMATION)))
 		val v2 = v1.zipWithIndex.map(l => ( (l._1._1), (l._1._2), (l._1._3), (l._1._4), (s"${orcaUrn}${l._2}"), (s"${l._2}" ) ))
 		val v3 = v2.map(l => s"${l._5}\t${l._1}\t${l._2}\t${l._3}\t${l._4}\t${l._6}" )
+		if ( includeHeader == true){
 		val vHead = Array("ORCA_URN\tAnalyzedText\tExemplarUrn\tAnalysis\tTextDeformation\tSequence")
-		val v4 = vHead ++ v3
-		v4
+			val v4 = vHead ++ v3
+			v4
+		} else {
+			v3
+		}
 	}
 
 	// Make array of strings, with a '#' delimiter: urn#text
@@ -267,7 +271,7 @@ object SyntaxTokenizer {
 
 
  def acquireTextAndCitations(source: String, fileLoc: String) = {
-	 try {
+		 try {
 		 source match {
 			 case "filesystem" => {
 				val tabFields = Source.fromFile(fileLoc).getLines.toVector.map(_.split(separator))
@@ -280,7 +284,7 @@ object SyntaxTokenizer {
 			 case _ => throw new IllegalArgumentException(s"Parameter 'source' must be 'filesystem' or 'url'. (${source})")
 		 }
 	 } catch {
-		 case e: Throwable => throw new Exception(s"${e}") 
+		 case e: Throwable => throw new Exception(s"${e}")
 	 }
  }
 

@@ -30,22 +30,8 @@ class SyntaxWriterSpec extends FlatSpec with PrivateMethodTester {
 
 			val getBaseFileName = PrivateMethod[String]('getBaseFileName)
 			val aa = sw invokePrivate getBaseFileName()
-			assert (aa == "greekLit_tlg0007-tlg012-ziegler")
+			assert (aa == "greekLit_tlg0007-tlg012-shortTest")
 	}
-
-	it should "have a private method to check for a specified output directory" in pending
-
-/*
-	it should "be able to process a non-xml text to a collectionArray to a file" in {
- 			val inputf = "src/test/resources/pericles-short-tab.txt"
-			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
-			val outputfile = "testing_SyntaxWriter"
-			val outputdir = "target/testOutput"
-			val st = SyntaxTokenizer("filesystem",inputf,cus)
-			val sw = SyntaxWriter(st)
-			sw.writeCollection(outputfile, outputdir)
-	}
-	*/
 
 	it should "be able to write a full token collection" in {
  			val tabfile = "src/test/resources/pericles-short-tab.txt"
@@ -54,7 +40,6 @@ class SyntaxWriterSpec extends FlatSpec with PrivateMethodTester {
 			val sw = SyntaxWriter(st)
 			sw.writeCollection
 	}
-
 
 	it should "be able to write a collection-inventory fragment for the token collection" in {
  			val tabfile = "src/test/resources/pericles-short-tab.txt"
@@ -95,11 +80,38 @@ class SyntaxWriterSpec extends FlatSpec with PrivateMethodTester {
 			val sw = SyntaxWriter(st)
 			sw.writeCtsInventory
 	}
-	
-	it should "be able to write an index file for exemplifies/exemplifiedBy" in pending
-	it should "be able to write an index file for analyzes/analyzedBy" in pending
-	it should "be able to write an index file for hasAnalysis/isAnalysisFor" in pending
-	it should "be able to write an index file for hasSubref/isSubrefOf" in pending
-	it should "assemble a complete build in a uniquely named directory" in pending
 
+	it should "be able to write Index Inventory fragments" in {
+ 			val tabfile = "src/test/resources/pericles-short-tab.txt"
+			val collectionurn = "urn:cite2:fufolio:short.v1:"
+			val st = SyntaxTokenizer("filesystem",tabfile,collectionurn)
+			val sw = SyntaxWriter(st)
+			sw.writeIndexInventory
+	}
+
+	it should "be able to index files for exemplifies/exemplifiedBy, analyzes/analyzedBy, hasAnalysis/isAnalysisFor, and hasSubref/isSubrefOf" in {
+
+ 			val tabfile = "src/test/resources/pericles-short-tab.txt"
+			val collectionurn = "urn:cite2:fufolio:short.v1:"
+			val st = SyntaxTokenizer("filesystem",tabfile,collectionurn)
+			val sw = SyntaxWriter(st)
+			sw.writeIndicesToFile
+
+	}
+	
+	it should "assemble a complete build in a uniquely named directory" in {
+ 			val tabfile = "src/test/resources/Allen-Iliad.txt"
+			val collectionurn = "urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1:"
+			val st = SyntaxTokenizer("filesystem",tabfile,collectionurn)
+			val sw = SyntaxWriter(st)
+			sw.writeAllData
+		}
+
+	it should "be able to build a really large file, like Herodotus" in {
+ 			val tabfile = "src/test/resources/herodotus-tab.txt"
+			val collectionurn = "urn:cite2:fufolio:Hdt_SyntaxTokens.v1:"
+			val st = SyntaxTokenizer("filesystem",tabfile,collectionurn)
+			val sw = SyntaxWriter(st)
+			sw.writeAllData
+		}
 }

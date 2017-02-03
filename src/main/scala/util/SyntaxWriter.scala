@@ -21,6 +21,7 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 	private val DISCOURSE = 5
 	private val EXEMPLARURN = 6
 
+
 	// all-purpose method for outputting an array of Strings to the filesystem
     def writeArrayToFile(a: Array[String], f: File) {
       val pw = new PrintWriter(f)
@@ -43,6 +44,20 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 		writeArrayToFile(a, f)
 	}
 
+	// Do all builds at once!
+	def writeAllData = {
+
+		writeOrcaFile
+		writeCts2Col
+		writeCollection
+		writeIndicesToFile
+		writeCollectionInventory
+		writeOrcaCollectionInventory
+		writeCtsInventory
+		writeIndexInventory
+
+	}
+
 	def writeOrcaFile = {
 		val ourn = getOrcaUrn
 		val v = st.makeOrcaCollection(ourn)
@@ -59,7 +74,7 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 	}
 
 	// writes collectionArray to a file
-	def writeCollection {
+	def writeCollection = {
 		val directory = createDirectory
 		val f = new File(s"${directory}/${getCollectionFilename}")
 		var tempArray =  scala.collection.mutable.ArrayBuffer[String]()
@@ -69,6 +84,33 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 		}
 		writeArrayToFile(tempArray.toArray, f)
 	}
+
+		// write indices to files
+		def writeIndicesToFile = {
+			val ourn = getOrcaUrn
+			val oc = st.makeOrcaCollection(ourn, false)
+			val directory = createDirectory
+
+			val idxExemplifies = oc.map( l => ( s"${l.split("\t")(2)}\t${l.split("\t")(1)}" ))
+			val f1 = new File(s"${directory}/${getIndexFilenames("exempIndex")}")
+			writeArrayToFile(idxExemplifies, f1)
+
+			val idxAnalyzes = oc.map( l => ( s"${l.split("\t")(0)}\t${l.split("\t")(1)}" ))
+			val f2 = new File(s"${directory}/${getIndexFilenames("analyzesIndex")}")
+			writeArrayToFile(idxAnalyzes, f2)
+
+			val idxAnalysis = oc.map( l => ( s"${l.split("\t")(0)}\t${l.split("\t")(3)}" ))
+			val f3 = new File(s"${directory}/${getIndexFilenames("analysisIndex")}")
+			writeArrayToFile(idxAnalysis, f3)
+
+			val idxSubref = oc.map{ l =>
+				val noSubRef = CtsUrn(l.split("\t")(1)).dropSubref.toString
+				s"${noSubRef}\t${l.split("\t")(1)}"
+			}
+			val f4 = new File(s"${directory}/${getIndexFilenames("subrefIndex")}")
+			writeArrayToFile(idxSubref, f4)
+
+		}
 
 	def writeCollectionInventory = {
 			val x = s"""
@@ -165,6 +207,35 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 	}
 
 
+	def writeIndexInventory = {
+		  val nameMap = getIndexFilenames
+			val x = s"""
+<inventoryFragments>
+
+	<! -- For Index Inventory -->
+	<index verb="orca:exemplifies" inverse="orca:exemplifiedBy">
+        <source type="file" value="${nameMap("exempIndex")}"></source>
+  </index>
+	<index verb="orca:analyzes" inverse="orca:analyzedBy">
+        <source type="file" value="${nameMap("analyzesIndex")}"></source>
+  </index>
+	<index verb="orca:hasAnalysis" inverse="orca:analysisFor">
+        <source type="file" value="${nameMap("analysisIndex")}"></source>
+  </index>
+	<index verb="cts:hasSubref" inverse="cts:isSubrefOf">
+        <source type="file" value="${nameMap("subrefIndex")}"></source>
+  </index>
+
+</inventoryFragments>
+			"""
+			val v = Array(x)
+			val directory = createDirectory
+			val f = new File(s"${directory}/FOR-INDEX INVENTORY.xml")
+			writeArrayToFile(v, f)
+
+	}
+
+
 	/* PRIVATE METHODS */
 
 	private def getOrcaFilename = {
@@ -178,8 +249,18 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 	}
 
 	private def getCTSFilename = {
-		val fn = s"CTS2Col-${getBaseFileName}.txt"
+		val fn = s"CTS2Col-SynTokExemplar-${getBaseFileName}.txt"
 		fn
+	}
+
+	private def getIndexFilenames = {
+		val fnn = Map(
+				"exempIndex" -> s"INDEX-exemplifies-SynTok-${getBaseFileName}.tsv",
+				"analyzesIndex" -> s"INDEX-analyzes-SynTok-${getBaseFileName}.tsv",
+				"analysisIndex" -> s"INDEX-hasAnalysis-SynTok-${getBaseFileName}.tsv",
+				"subrefIndex" -> s"INDEX-hasSubref-SynTok-${getBaseFileName}.tsv"
+		)
+		fnn
 	}
 
 	private def checkDirectory(d: String): java.io.File = {
