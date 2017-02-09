@@ -18,12 +18,12 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 		val st = SyntaxTokenizer("filesystem",f,cus)
 	}
 
-	it should "produce 21 records from the 'pericles-short-tab.txt' file" in {
+	it should "produce 22 records from the 'pericles-short-tab.txt' file" in {
 		val f = "src/test/resources/pericles-short-tab.txt"
 		val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 		val outDir = "testOutput"
 		val st = SyntaxTokenizer("filesystem",f,cus)
-		assert (st.collectionArray.size == 21)
+		assert (st.collectionArray.size == 22)
 	}
 
 	it should "throw an exception if the 'source' paramter is not 'filesystem' or 'url'" in {
@@ -41,7 +41,7 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 		val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 		val outDir = "testOutput"
 		val st = SyntaxTokenizer("URL",f,cus)
-		assert (st.collectionArray.size == 21)
+		assert (st.collectionArray.size == 22)
 	}
 
 	it should "throw a sensible exception if a file can't be read" in {
@@ -58,7 +58,7 @@ class SyntaxTokenizerSpec extends FlatSpec with PrivateMethodTester {
 		val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 		val outDir = "testOutput"
 		val st = SyntaxTokenizer("URL",f,cus)
-		assert (st.collectionArray.size == 21)
+		assert (st.collectionArray.size == 22)
 	}
 
 it should "have a private method to create an array of field-records from a line" in {
@@ -82,7 +82,7 @@ it should "be able to produce a 4-column ORCA alignment" in {
 	val oUrn = "urn:cite2:fufolio:stOrca.v1:0007_0012_"
 	val st = SyntaxTokenizer("filesystem",inputf,cus)
 	val orca = st.makeOrcaCollection(oUrn)
-	assert ( orca(21).split("\t")(4) == "τὸ" )
+	assert ( orca(22).split("\t")(4) == "τὸ" )
 }
 
 it should "be able to process a lengthy file, like Plutarch's Pericles" in {

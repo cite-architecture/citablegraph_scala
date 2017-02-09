@@ -93,9 +93,9 @@ object SyntaxTokenizer {
 			"εἴτε" -> ("εἴ","τε")
 		)
 
-		private val nonCharacters = "{※}⸖<>-—–—()[]"
+		private val nonCharacters = """{※}⸖<>-—–—()[]"""
 
-		private val delimiters : scala.util.matching.Regex = """([.,;?·])""".r
+		private val delimiters : scala.util.matching.Regex = """([.,;"?·])""".r
 		private val punctuation = """.,;\"'?·"""
 
 		def apply(source: String, tabFile: String, collectionUrnString: String): SyntaxTokenizer = {
@@ -177,7 +177,13 @@ object SyntaxTokenizer {
 			var edStatus = ""
 			var discourseLevel = ""
 			var greekString = tt._2._1
+			var greekStringPrefix = ""
+			var greekStringAdfix = ""
 			val elems = tt._2._2
+
+			// Text-content cannot have a hyphen. Period.
+			if (greekString.contains("-")) throw new Exception(s"Exception: text-content cannot have a hyphen: ${tt}")
+
 
 			if (elems != ""){
 
@@ -196,7 +202,9 @@ object SyntaxTokenizer {
 					esm match {
 						case Some(esmatch) => {
 							edStatus = edStatusMap(el)._1
-							greekString = s"${edStatusMap(el)._2}${greekString}${edStatusMap(el)._3}"
+							greekStringPrefix += s"${edStatusMap(el)._2}"
+							greekStringAdfix +=  s"${edStatusMap(el)._3}"
+							//greekString = s"${edStatusMap(el)._2}${greekString}${edStatusMap(el)._3}"
 						}
 						case None =>  edStatus = edStatusMap("default")._1
 					}
@@ -215,21 +223,24 @@ object SyntaxTokenizer {
 
 					tokenType = tokenTypeMap("multifunction")
 					// Make 2 strings 【】
-						val s1 = s"${collectionUrnString}${i}a\t${tt._1}\t${tokenType}\t【${defText1}】${defText2}\t${edStatus}\t${discourseLevel}\t${aaUrn1}"
+						val s1 = s"${collectionUrnString}${i}a\t${tt._1}\t${tokenType}\t${greekStringPrefix}【${defText1}】${defText2}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn1}"
 						returnArray += s1
-						val s2 = s"${collectionUrnString}${i}b\t${tt._1}\t${tokenType}\t${defText1}【${defText2}】\t${edStatus}\t${discourseLevel}\t${aaUrn2}"
+						val s2 = s"${collectionUrnString}${i}b\t${tt._1}\t${tokenType}\t${greekStringPrefix}${defText1}【${defText2}】${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn2}"
 						returnArray += s2
 				}
 				case None => {
 						tokenType = tokenTypeMap("word")
 						val aaUrn = makeExemplarUrn(tt._1, s"${i+1}")
 						// test for punctation
-						for (c <- punctuation) if (c.toString == greekString) tokenType = tokenTypeMap("punc")
+						for (c <- punctuation) if (c.toString == greekString){
+							tokenType = tokenTypeMap("punc")
+							//if (greekString == "\""){ greekString = "(quote)" }
+						}
 						// test for token-type 'other'
 						for (cOther <- nonCharacters; cTest <- greekString) if (cOther == cTest) tokenType = tokenTypeMap("other")
 						// Make 1 string
 						// ORCA_URN	AnalyzedText	Analysis	textDeformation editorialStatus	discourceLevel
-						val s = s"${collectionUrnString}${i}\t${tt._1}\t${tokenType}\t${greekString}\t${edStatus}\t${discourseLevel}\t${aaUrn}"
+						val s = s"${collectionUrnString}${i}\t${tt._1}\t${tokenType}\t${greekStringPrefix}${greekString}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn}"
 						returnArray += s
 				}
 			}

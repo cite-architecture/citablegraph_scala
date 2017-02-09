@@ -98,7 +98,7 @@ class SyntaxWriterSpec extends FlatSpec with PrivateMethodTester {
 			sw.writeIndicesToFile
 
 	}
-	
+
 	it should "assemble a complete build in a uniquely named directory" in {
  			val tabfile = "src/test/resources/Allen-Iliad.txt"
 			val collectionurn = "urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1:"
@@ -106,6 +106,14 @@ class SyntaxWriterSpec extends FlatSpec with PrivateMethodTester {
 			val sw = SyntaxWriter(st)
 			sw.writeAllData
 		}
+
+		it should "assemble a complete build in of a long prose text with markup" in {
+	 			val tabfile = "src/test/resources/pericles-tab.txt"
+				val collectionurn = "urn:cite2:fufolio:PlutPericles_SyntaxTokens.v1:"
+				val st = SyntaxTokenizer("filesystem",tabfile,collectionurn)
+				val sw = SyntaxWriter(st)
+				sw.writeAllData
+			}
 
 	it should "be able to build a really large file, like Herodotus" in {
  			val tabfile = "src/test/resources/herodotus-tab.txt"

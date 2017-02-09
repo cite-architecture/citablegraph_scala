@@ -120,9 +120,7 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 
   <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization of ${getCtsUrn}</dc:title>
   <description xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization with categorized tokens, analyzed from ${getCtsUrn}</description>
-  <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-      under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-      http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+  <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
 
   <orderedBy property="Sequence"/>
   <source type="file" value="${getCollectionFilename}"/>
@@ -155,9 +153,7 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 		<dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of  ${getCollectionUrn} with ${getCtsUrn} </dc:title>
 
 		<description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Syntax tokens ${getCollectionUrn} with ${getCtsUrn}</description>
-		<rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-				under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-				http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+		<rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
 
 		<orderedBy property="Sequence"/>
 		<source type="file" value="${getOrcaFilename}"/>
@@ -182,14 +178,14 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 			val x = s"""
 <inventoryFragments>
 
-	<! -- For TextInventory: insert in Edition element for '${getCtsUrn}' -->
+	<!-- For TextInventory: insert in Edition element for '${getCtsUrn}' -->
 	<exemplar urn="${getCtsExemplarUrn}">
 		 <label xml:lang="eng">Syntax Tokens</label>
 		 <description xml:lang="eng">Syntactically Significant Tokens</description>
 		 <online/>
 	</exemplar>
 
-	<! -- For CitationConfig -->
+	<!-- For CitationConfig -->
 	<online urn="${getCtsExemplarUrn}" type="2col" docname="${getCTSFilename}" nodeformat="text">
      <citationScheme>
          <!-- You need to add this yourself! -->
@@ -239,7 +235,7 @@ case class SyntaxWriter(st: SyntaxTokenizer, outputDir: String = "target/tokeniz
 	/* PRIVATE METHODS */
 
 	private def getOrcaFilename = {
-		val fn = s"ORCA-${getBaseFileName}.txt"
+		val fn = s"ORCA-${getBaseFileName}.tsv"
 		fn
 	}
 
