@@ -1,6 +1,6 @@
 # Citable Graphs
 
-This **citableGraph** library allows identification and retrieval of scholarly graphs and their constituent parts by means of machine-actionable. It is part of the CITE Architecture.
+This **citableGraph** library allows identification and retrieval of scholarly graphs and their constituent parts by means of machine-actionable citations in the form of URNs. It is part of the CITE Architecture.
 
 ## Using the Citable Graph Library
 
