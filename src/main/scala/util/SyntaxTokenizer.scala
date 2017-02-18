@@ -223,14 +223,20 @@ object SyntaxTokenizer {
 
 					tokenType = tokenTypeMap("multifunction")
 					// Make 2 strings 【】
-						val s1 = s"${collectionUrnString}${i}a\t${tt._1}\t${tokenType}\t${greekStringPrefix}【${defText1}】${defText2}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn1}"
+						val curns1 = makeCollectionUrn(collectionUrnString,aaUrn1,i)
+						val s1 = s"${curns1}\t${tt._1}\t${tokenType}\t${greekStringPrefix}【${defText1}】${defText2}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn1}"
 						returnArray += s1
-						val s2 = s"${collectionUrnString}${i}b\t${tt._1}\t${tokenType}\t${greekStringPrefix}${defText1}【${defText2}】${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn2}"
+
+// WE NEED TO COUNT BETTER!
+
+						val curns2 = makeCollectionUrn(collectionUrnString,aaUrn2,i)
+						val s2 = s"${curns2}\t${tt._1}\t${tokenType}\t${greekStringPrefix}${defText1}【${defText2}】${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn2}"
 						returnArray += s2
 				}
 				case None => {
 						tokenType = tokenTypeMap("word")
 						val aaUrn = makeExemplarUrn(tt._1, s"${i+1}")
+						val curns = makeCollectionUrn(collectionUrnString,aaUrn,i)
 						// test for punctation
 						for (c <- punctuation) if (c.toString == greekString){
 							tokenType = tokenTypeMap("punc")
@@ -240,7 +246,7 @@ object SyntaxTokenizer {
 						for (cOther <- nonCharacters; cTest <- greekString) if (cOther == cTest) tokenType = tokenTypeMap("other")
 						// Make 1 string
 						// ORCA_URN	AnalyzedText	Analysis	textDeformation editorialStatus	discourceLevel
-						val s = s"${collectionUrnString}${i}\t${tt._1}\t${tokenType}\t${greekStringPrefix}${greekString}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn}"
+						val s = s"${curns}\t${tt._1}\t${tokenType}\t${greekStringPrefix}${greekString}${greekStringAdfix}\t${edStatus}\t${discourseLevel}\t${aaUrn}"
 						returnArray += s
 				}
 			}
@@ -297,6 +303,14 @@ object SyntaxTokenizer {
 	 } catch {
 		 case e: Throwable => throw new Exception(s"${e}")
 	 }
+ }
+
+ def makeCollectionUrn(collUrn: String, aaUrn: String, i: Integer): String = {
+	 val turn = CtsUrn(aaUrn)
+	 val citationPart = turn.passageComponent.replaceAll("\\.","_")
+	 val returnUrnString = s"${collUrn}${citationPart}_${i}"
+	 returnUrnString
+
  }
 
  def makeExemplarUrn(urnStr: String, citationValue: String):String = {
