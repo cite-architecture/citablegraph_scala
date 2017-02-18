@@ -18,9 +18,11 @@ The library is **citableGraph**. It is abbreivated **CGrS** (Citable Graph Servi
 Graphs are captured in the **CGrs Data Model** and cited by **CITE2 URNs**. The CitableGraph library defines an *extension* to the CITE2 URN, in the form of a '@'-delimited annotation attached to the URN, that allows identification of parts of a graph, *e.g.*:
 
 - `urn:cite2:ns:collection.version:graph1@v1,v2,e1` : CITE2 URN with subreference specifically identifying two vertices (`v1`,`v2`) and one edge (`e1`).
-- `urn:cite2:ns:collection.version:graph1@v1-v4` : CITE2 URN with subreference specifically identifying all paths between two vertices (`v1`,`v4`).
+- `urn:cite2:ns:collection.version:graph1@v1-v4` : CITE2 URN with subreference specifically identifying all valid paths between two vertices (`v1`,`v4`).
 
 A scholarly graph must be a **Directed Graph**, consisting of triples: two citable scholarly objects as vertices, an asserted and citable relationship as an edge. **CGrS** assumes that any scholarly graph may be a **Directed Multigraph** (**Quiver**), in which any two vertices *may* be joined by more than one edge.
+
+A scholarly graph *must* have at least one vertex. It *may* have zero-or-more edges. It *may* be cyclic or acyclic.
 
 ## ScalaGraph
 
