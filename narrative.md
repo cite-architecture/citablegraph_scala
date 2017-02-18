@@ -33,7 +33,11 @@ Behind **CGrS**, as currently under implementation, is the [ScalaGraph](http://w
 
 ## Data Model
 
-Citable Graph Services (CGrS) separates concerns by means of its data model. The **CGrS Service** manages interaction with users and other online services; **CGrS Collections** are CITE Collections. The CITE Collection Protocol allows *extensions*, providing special methods for interacting with known kinds of data. For example, CITE Collections can describe collections of images, providing properties for identifiers (Cite2Urn), labels, and statements of rights. But because images are a specific and undertood kind of data, the `hmt:CiteImage` extension provides methods like `GetBinaryImage` that apply only to data of this kind. The **CGrS Object**, a member of the CGrS Collection, is a CITE Collection Object, but is also identifies a **Citable Graph** object, a special data type for which the `fu:CitableGraph` extension offers methods specific to graphs.
+Citable Graph Services (CGrS) separates concerns by means of its data model. The **CGrS Service** manages interaction with users and other online services; **CGrS Collections** are CITE Collections.
+
+The CITE Collection Protocol allows *extensions*, providing special methods for interacting with known kinds of data. For example, CITE Collections can describe collections of images, providing properties for identifiers (Cite2Urn), labels, and statements of rights. But because images are a specific and understood kind of data, the `hmt:CiteImage` extension provides methods like `GetBinaryImage` that apply only to data of this kind.
+
+The **CGrS Object**, a member of the CGrS Collection, is a CITE Collection Object, but is also identifies a **Citable Graph** object, a special data type for which the `fu:CitableGraph` extension offers methods specific to graphs.
 
 - **CGrS Service** : The CGrS Service manages REST requests and responses to and from itself, and optionally connections to online CITE Services for resolving CTS and CITE2 urns. It also provides serializations of graphed data in various formats. The Service works on a…
 
