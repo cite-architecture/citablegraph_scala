@@ -15,16 +15,18 @@ The library is **citableGraph**. It is abbreivated **CGrS** (Citable Graph Servi
 
 ## Graphs and their Citations
 
-Graphs are captured in the **CGrs Data Model** and cited by **CITE2 URNs**. The CitableGraph library defines an *extension* to the CITE2 URN, in the form of a '@'-delimited annotation attached to the URN, that allows identification of parts of a graph:
+Graphs are captured in the **CGrs Data Model** and cited by **CITE2 URNs**. The CitableGraph library defines an *extension* to the CITE2 URN, in the form of a '@'-delimited annotation attached to the URN, that allows identification of parts of a graph, *e.g.*:
 
 - `urn:cite2:ns:collection.version:graph1@v1,v2,e1` : CITE2 URN with subreference specifically identifying two vertices (`v1`,`v2`) and one edge (`e1`).
 - `urn:cite2:ns:collection.version:graph1@v1-v4` : CITE2 URN with subreference specifically identifying all paths between two vertices (`v1`,`v4`).
 
-A scholarly graph must be a **Directed Graph**, consisting of triples: two citable scholarly objects as vertices, a citable, asserted relationship as an edge. **CGrS** assumes that any scholarly graph may be a **Directed Multigraph** (**Quiver**), in which any two vertices *may* be joined by more than one edge.
+A scholarly graph must be a **Directed Graph**, consisting of triples: two citable scholarly objects as vertices, an asserted and citable relationship as an edge. **CGrS** assumes that any scholarly graph may be a **Directed Multigraph** (**Quiver**), in which any two vertices *may* be joined by more than one edge.
 
 ## ScalaGraph
 
-- For now, we are limiting CGrS Graphs to Labeled, Directed Edges (LDiEdge, "A" ~+> "B"). We are excluding *hyperedges* and *weighted edges*.
+Behind **CGrS**, as currently under implementation, is the [ScalaGraph](http://www.scala-graph.org) library.
+
+- For now, we are limiting CGrS Graphs to Labeled, Directed Edges (in Scala-Graph, LDiEdge, `"A" ~+> "B"`). We are excluding *hyperedges* and *weighted edges*.
 
 
 ## Data Model
