@@ -13,7 +13,7 @@ class TreebankerSpec extends FlatSpec with PrivateMethodTester {
 
 
 	"The Treebanker" should "have a constructor" in {
- 			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
+ 			val f = "src/test/resources/pericles-short-tab.txt"
 			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 			val outDir = "testOutput"
 			val username= "Christopher Blackwell"
@@ -30,7 +30,7 @@ class TreebankerSpec extends FlatSpec with PrivateMethodTester {
 
 	it should "be able to report the index, in a 'SyntaxToken' string, of the beginning and end of a range" in {
 
- 			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
+ 			val f = "src/test/resources/pericles-short-tab.txt"
 			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 			val outDir = "testOutput"
 			val username= "Christopher Blackwell"
@@ -51,7 +51,7 @@ class TreebankerSpec extends FlatSpec with PrivateMethodTester {
 
 	it should "be able to slice out a Vector of citable nodes, based on a range-URN" in {
 
- 			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-short-tab.txt"
+ 			val f = "src/test/resources/pericles-short-tab.txt"
 			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 			val outDir = "testOutput"
 			val username= "Christopher Blackwell"
@@ -73,7 +73,7 @@ class TreebankerSpec extends FlatSpec with PrivateMethodTester {
 
 	it should "export a working treebank file given an array of URNs" in {
 
- 			val f = "/Users/cblackwell/Dropbox/CITE/scala/citableGraph/src/test/resources/pericles-tab.txt"
+ 			val f = "src/test/resources/pericles-tab.txt"
 			val cus = "urn:cite2:fufolio:syntaxToken.v1:0007_0012_"
 			val outDir = "testOutput"
 			val username= "Christopher Blackwell"

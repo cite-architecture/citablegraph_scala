@@ -47,7 +47,13 @@ Citable Graph Services (CGrS) separates concerns by means of its data model. The
 
 ## Utilities
 
-- **SyntaxTokenizer** A utility class that takes, as input, a CTS text in a tabular format (see [CITE Archive Manager](https://github.com/cite-architecture/cite-archive-manager)). It offers methods for producing a citable tokenization of the text specifically for syntactical analysis.
+- **SyntaxTokenizer** A utility class that takes, as input, a CTS text in a tabular format (see [CITE Archive Manager](https://github.com/cite-architecture/cite-archive-manager)).  It offers methods for producing a citable tokenization of the text specifically for syntactical analysis.
+
+- **SyntaxWriter** A utility class, depending on **SyntaxTokenizer**, that can write as tabular data the CITE collections, indices, and *analytical exemplars* necessary for working with tokenized texts in the CITE Architecture.
+
+- **Treebanker** A utility class, depending on **SyntaxTokenizer**, that generates XML files that can be loaded into the [Perseids Treebank Editor](http://sosol.perseids.org/sosol/) for creating syntactic graphs of texts.
+
+- **TreebankGraphWriter** A utility class that parses XML files capturing syntactic analyses by means of the [Perseids Treebank Editor](http://sosol.perseids.org/sosol/) and outputs tabular expressions of these analysis as citable vertices and edges.
 
 ## Build Citable Graph Collections
 
