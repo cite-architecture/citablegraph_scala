@@ -22,7 +22,7 @@ Graphs are captured in the **CGrs Data Model** and cited by **CITE2 URNs**. The 
 
 A scholarly graph must be a **Directed Graph**, consisting of triples: two citable scholarly objects as vertices, an asserted and citable relationship as an edge. **CGrS** assumes that any scholarly graph may be a **Directed Multigraph** (**Quiver**), in which any two vertices *may* be joined by more than one edge.
 
-A scholarly graph *must* have at least one vertex. It *may* have zero-or-more edges. It *may* be cyclic or acyclic.
+A scholarly graph *may* have zero-or-more vetices (*i.e.* it may be empty). It *may* have zero-or-more edges. It *may* have islands. It *may* be cyclic or acyclic.
 
 ## ScalaGraph
 
