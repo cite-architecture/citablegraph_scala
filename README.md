@@ -2,4 +2,4 @@
 
 Library implementing citable graphed data as an extension to CITE Collections.
 
-## Utilities
+See the [narrative](narrative.md) for the project's architecture.
