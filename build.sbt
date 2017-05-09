@@ -4,6 +4,9 @@ name := "citablegraph"
 
 version := "0.1.0"
 
+
+// offline := true
+
 scalaVersion := "2.12.1"
 
 crossScalaVersions := Seq("2.11.8", "2.12.1")

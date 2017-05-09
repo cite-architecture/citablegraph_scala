@@ -21,8 +21,6 @@ class CGEdgeSpec extends FlatSpec {
 	  val cge1 = CGEdge(id, cite2urn1, cite2urn2, relationurn, label)
 	}
 
-
-
   it should "have an id" in {
 		assertThrows[CGException] {
 			val cge2 = CGEdge("", cite2urn1, cite2urn2, relationurn, label)
