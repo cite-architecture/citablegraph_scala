@@ -1,36 +1,47 @@
-
-organization := "edu.furman.folio"
-name := "citablegraph"
-
-version := "0.1.0"
+name := "CitableGraph Library"
 
 
-// offline := true
+crossScalaVersions := Seq("2.11.8")
+scalaVersion := "2.11.8"
 
-scalaVersion := "2.12.1"
+lazy val root = project.in(file(".")).
+    aggregate(crossedJVM, crossedJS).
+    settings(
+      publish := {},
+      publishLocal := {}
 
-crossScalaVersions := Seq("2.11.8", "2.12.1")
+    )
 
-resolvers += "jcenterRepo" at "https://jcenter.bintray.com/"
-resolvers += "uh-nexus" at "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+lazy val crossed = crossProject.in(file(".")).
+    settings(
+		organization := "edu.furman.folio",
+		name := "citablegraph",
+      version := "0.1.1",
+      licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html")),
+      resolvers += Resolver.jcenterRepo,
+      resolvers += "beta" at "http://beta.hpcc.uh.edu/nexus/content/repositories/releases",
+      resolvers += Resolver.bintrayRepo("neelsmith", "maven"),
+      libraryDependencies ++= Seq(
+        "org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",
+        "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
+        "edu.holycross.shot.cite" %%% "xcite" % "2.2.3"
+      )
+    ).
+    jvmSettings(
+      /*libraryDependencies ++= Seq(
+        "com.quantifind" %% "wisp" % "0.0.4"
+      )*/
+    ).
+    jsSettings(
+      skip in packageJSDependencies := false,
+      persistLauncher in Compile := true,
+      persistLauncher in Test := false
+    )
 
-
-// libraryDependencies += "edu.holycross.shot" %% "cite" % "3.1.0"
-libraryDependencies += "edu.holycross.shot.cite" %% "xcite" % "1.3.0"
-libraryDependencies += "edu.holycross.shot" %% "ohco2" % "2.1.0"
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" %  "test"
-libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
-
-libraryDependencies += "org.scala-graph" %% "graph-core" % "1.11.4"
-
-libraryDependencies +=  "org.pegdown"    %  "pegdown"     % "1.6.0"  % "test"
+lazy val crossedJVM = crossed.jvm
+lazy val crossedJS = crossed.js.enablePlugins(ScalaJSPlugin)
 
 logBuffered in Test := true
 
 
-testOptions in Test ++= Seq(Tests.Argument(TestFrameworks.ScalaTest, "-oIDS"), Tests.Argument(TestFrameworks.ScalaTest, "-hI", "target/test-reports"))
 
-publishTo := Some("Sonatype Snapshots Nexus" at "http://beta.hpcc.uh.edu/nexus/content/repositories/releases/")
-
-credentials += Credentials(Path.userHome / "nexusauth.txt" )
