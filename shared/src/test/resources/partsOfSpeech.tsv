@@ -1,0 +1,1120 @@
+urn:cite2:fufolio:partsOfSpeech.v1:1	---------	unlabled
+urn:cite2:fufolio:partsOfSpeech.v1:2	---pna---	present, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:3	--p---fa-	plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:4	--p---na-	plural, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:5	--s---fa-	singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:6	--s---ma-	singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:7	--s---mg-	singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:8	--s---ng-	singular, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:9	--s---nv-	singular, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:10	-2ppsa---	second, plural, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:11	-2sasa---	second, singular, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:12	-3paia---	third, plural, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:13	-3paim---	third, plural, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:14	-3piia---	third, plural, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:15	-3siia---	third, singular, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:16	a--------	adjective
+urn:cite2:fufolio:partsOfSpeech.v1:17	a-------c	adjective, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:18	a-------s	adjective, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:19	a-----fas	adjective, feminine, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:20	a-----mn-	adjective, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:21	a-----na-	adjective, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:22	a-d----a-	adjective, dual, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:23	a-d----n-	adjective, dual, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:24	a-d---fa-	adjective, dual, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:25	a-d---fd-	adjective, dual, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:26	a-d---fg-	adjective, dual, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:27	a-d---fn-	adjective, dual, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:28	a-d---fnc	adjective, dual, feminine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:29	a-d---fns	adjective, dual, feminine, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:30	a-d---ma-	adjective, dual, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:31	a-d---md-	adjective, dual, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:32	a-d---mg-	adjective, dual, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:33	a-d---mn-	adjective, dual, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:34	a-d---mnc	adjective, dual, masculine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:35	a-d---mv-	adjective, dual, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:36	a-d---na-	adjective, dual, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:37	a-d---ng-	adjective, dual, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:38	a-d---nn-	adjective, dual, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:39	a-p----dc	adjective, plural, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:40	a-p----g-	adjective, plural, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:41	a-p----gc	adjective, plural, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:42	a-p---f--	adjective, plural, feminine
+urn:cite2:fufolio:partsOfSpeech.v1:43	a-p---fa-	adjective, plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:44	a-p---fac	adjective, plural, feminine, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:45	a-p---fas	adjective, plural, feminine, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:46	a-p---fd-	adjective, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:47	a-p---fdc	adjective, plural, feminine, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:48	a-p---fds	adjective, plural, feminine, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:49	a-p---fg-	adjective, plural, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:50	a-p---fgc	adjective, plural, feminine, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:51	a-p---fgs	adjective, plural, feminine, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:52	a-p---fn-	adjective, plural, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:53	a-p---fnc	adjective, plural, feminine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:54	a-p---fns	adjective, plural, feminine, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:55	a-p---fv-	adjective, plural, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:56	a-p---fvs	adjective, plural, feminine, vocative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:57	a-p---m--	adjective, plural, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:58	a-p---m-c	adjective, plural, masculine, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:59	a-p---ma-	adjective, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:60	a-p---mac	adjective, plural, masculine, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:61	a-p---mas	adjective, plural, masculine, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:62	a-p---md-	adjective, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:63	a-p---mdc	adjective, plural, masculine, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:64	a-p---mds	adjective, plural, masculine, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:65	a-p---mg-	adjective, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:66	a-p---mgc	adjective, plural, masculine, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:67	a-p---mgs	adjective, plural, masculine, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:68	a-p---mn-	adjective, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:69	a-p---mnc	adjective, plural, masculine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:70	a-p---mns	adjective, plural, masculine, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:71	a-p---mv-	adjective, plural, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:72	a-p---mvc	adjective, plural, masculine, vocative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:73	a-p---mvs	adjective, plural, masculine, vocative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:74	a-p---na-	adjective, plural, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:75	a-p---nac	adjective, plural, neuter, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:76	a-p---nas	adjective, plural, neuter, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:77	a-p---nd-	adjective, plural, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:78	a-p---ndc	adjective, plural, neuter, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:79	a-p---nds	adjective, plural, neuter, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:80	a-p---ng-	adjective, plural, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:81	a-p---ngc	adjective, plural, neuter, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:82	a-p---ngs	adjective, plural, neuter, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:83	a-p---nn-	adjective, plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:84	a-p---nnc	adjective, plural, neuter, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:85	a-p---nns	adjective, plural, neuter, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:86	a-p---nv-	adjective, plural, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:87	a-p---nvs	adjective, plural, neuter, vocative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:88	a-s----a-	adjective, singular, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:89	a-s----d-	adjective, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:90	a-s----dc	adjective, singular, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:91	a-s----g-	adjective, singular, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:92	a-s----gc	adjective, singular, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:93	a-s---f--	adjective, singular, feminine
+urn:cite2:fufolio:partsOfSpeech.v1:94	a-s---fa-	adjective, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:95	a-s---fac	adjective, singular, feminine, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:96	a-s---fas	adjective, singular, feminine, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:97	a-s---fd-	adjective, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:98	a-s---fdc	adjective, singular, feminine, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:99	a-s---fds	adjective, singular, feminine, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:100	a-s---fg-	adjective, singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:101	a-s---fgc	adjective, singular, feminine, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:102	a-s---fgs	adjective, singular, feminine, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:103	a-s---fn-	adjective, singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:104	a-s---fnc	adjective, singular, feminine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:105	a-s---fns	adjective, singular, feminine, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:106	a-s---fv-	adjective, singular, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:107	a-s---fvc	adjective, singular, feminine, vocative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:108	a-s---m--	adjective, singular, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:109	a-s---ma-	adjective, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:110	a-s---mac	adjective, singular, masculine, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:111	a-s---mas	adjective, singular, masculine, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:112	a-s---md-	adjective, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:113	a-s---mdc	adjective, singular, masculine, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:114	a-s---mds	adjective, singular, masculine, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:115	a-s---mg-	adjective, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:116	a-s---mgc	adjective, singular, masculine, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:117	a-s---mgs	adjective, singular, masculine, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:118	a-s---mn-	adjective, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:119	a-s---mnc	adjective, singular, masculine, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:120	a-s---mns	adjective, singular, masculine, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:121	a-s---mv-	adjective, singular, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:122	a-s---mvc	adjective, singular, masculine, vocative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:123	a-s---mvs	adjective, singular, masculine, vocative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:124	a-s---n-c	adjective, singular, neuter, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:125	a-s---na-	adjective, singular, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:126	a-s---nac	adjective, singular, neuter, accusative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:127	a-s---nas	adjective, singular, neuter, accusative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:128	a-s---nd-	adjective, singular, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:129	a-s---ndc	adjective, singular, neuter, dative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:130	a-s---nds	adjective, singular, neuter, dative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:131	a-s---ng-	adjective, singular, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:132	a-s---ngc	adjective, singular, neuter, genitive, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:133	a-s---ngs	adjective, singular, neuter, genitive, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:134	a-s---nn-	adjective, singular, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:135	a-s---nnc	adjective, singular, neuter, nominative, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:136	a-s---nns	adjective, singular, neuter, nominative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:137	a-s---nv-	adjective, singular, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:138	a-s---nvs	adjective, singular, neuter, vocative, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:139	c--------	conjunction
+urn:cite2:fufolio:partsOfSpeech.v1:140	c2sa-p---	conjunction, second, singular, aorist, passive
+urn:cite2:fufolio:partsOfSpeech.v1:141	c2sfim---	conjunction, second, singular, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:142	c3piia---	conjunction, third, plural, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:143	d---	adverb
+urn:cite2:fufolio:partsOfSpeech.v1:144	d--------	adverb
+urn:cite2:fufolio:partsOfSpeech.v1:145	d-------c	adverb, comparative
+urn:cite2:fufolio:partsOfSpeech.v1:146	d-------s	adverb, superlative
+urn:cite2:fufolio:partsOfSpeech.v1:147	d-p---ma-	adverb, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:148	d-s------	adverb, singular
+urn:cite2:fufolio:partsOfSpeech.v1:149	g--------	unlabled
+urn:cite2:fufolio:partsOfSpeech.v1:150	i--------	interjection
+urn:cite2:fufolio:partsOfSpeech.v1:151	l--------	article
+urn:cite2:fufolio:partsOfSpeech.v1:152	l-----fd-	article, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:153	l-d---fa-	article, dual, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:154	l-d---fg-	article, dual, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:155	l-d---ma-	article, dual, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:156	l-d---md-	article, dual, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:157	l-d---mg-	article, dual, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:158	l-d---mn-	article, dual, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:159	l-d---na-	article, dual, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:160	l-d---ng-	article, dual, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:161	l-d---nn-	article, dual, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:162	l-p----d-	article, plural, dative
+urn:cite2:fufolio:partsOfSpeech.v1:163	l-p----g-	article, plural, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:164	l-p---fa-	article, plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:165	l-p---fd-	article, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:166	l-p---fg-	article, plural, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:167	l-p---fn-	article, plural, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:168	l-p---m--	article, plural, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:169	l-p---ma-	article, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:170	l-p---md-	article, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:171	l-p---mg-	article, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:172	l-p---mn-	article, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:173	l-p---mv-	article, plural, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:174	l-p---na-	article, plural, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:175	l-p---nb-	article, plural, neuter
+urn:cite2:fufolio:partsOfSpeech.v1:176	l-p---nd-	article, plural, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:177	l-p---ng-	article, plural, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:178	l-p---nn-	article, plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:179	l-p---nv-	article, plural, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:180	l-s----d-	article, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:181	l-s---fa-	article, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:182	l-s---fd-	article, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:183	l-s---fg-	article, singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:184	l-s---fn-	article, singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:185	l-s---fv-	article, singular, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:186	l-s---m--	article, singular, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:187	l-s---ma-	article, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:188	l-s---md-	article, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:189	l-s---mg-	article, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:190	l-s---mn-	article, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:191	l-s---n--	article, singular, neuter
+urn:cite2:fufolio:partsOfSpeech.v1:192	l-s---na-	article, singular, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:193	l-s---nd-	article, singular, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:194	l-s---ng-	article, singular, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:195	l-s---nn-	article, singular, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:196	l-s---nv-	article, singular, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:197	m--------	unlabled
+urn:cite2:fufolio:partsOfSpeech.v1:198	m-p---m--	plural, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:199	m-p---md-	plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:200	m-p---nn-	plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:201	m-s---fg-	singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:202	m-s---fn-	singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:203	m-s---ma-	singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:204	m-s---mg-	singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:205	m-s---mn-	singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:206	m-s---na-	singular, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:207	n--------	noun
+urn:cite2:fufolio:partsOfSpeech.v1:208	n-----fa-	noun, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:209	n-----fd-	noun, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:210	n-----fg-	noun, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:211	n-----fn-	noun, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:212	n-----md-	noun, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:213	n-----na-	noun, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:214	n-----nn-	noun, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:215	n-d----a-	noun, dual, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:216	n-d----n-	noun, dual, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:217	n-d---fa-	noun, dual, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:218	n-d---fd-	noun, dual, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:219	n-d---fg-	noun, dual, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:220	n-d---fn-	noun, dual, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:221	n-d---ma-	noun, dual, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:222	n-d---md-	noun, dual, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:223	n-d---mg-	noun, dual, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:224	n-d---mn-	noun, dual, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:225	n-d---mv-	noun, dual, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:226	n-d---na-	noun, dual, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:227	n-d---nd-	noun, dual, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:228	n-d---ng-	noun, dual, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:229	n-d---nn-	noun, dual, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:230	n-p----a-	noun, plural, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:231	n-p----d-	noun, plural, dative
+urn:cite2:fufolio:partsOfSpeech.v1:232	n-p----g-	noun, plural, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:233	n-p---fa-	noun, plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:234	n-p---fd-	noun, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:235	n-p---fg-	noun, plural, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:236	n-p---fl-	noun, plural, feminine, locative
+urn:cite2:fufolio:partsOfSpeech.v1:237	n-p---fn-	noun, plural, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:238	n-p---fv-	noun, plural, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:239	n-p---ma-	noun, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:240	n-p---md-	noun, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:241	n-p---mg-	noun, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:242	n-p---mn-	noun, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:243	n-p---mv-	noun, plural, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:244	n-p---na-	noun, plural, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:245	n-p---nd-	noun, plural, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:246	n-p---ng-	noun, plural, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:247	n-p---nn-	noun, plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:248	n-p---nv-	noun, plural, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:249	n-s----a-	noun, singular, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:250	n-s----d-	noun, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:251	n-s----g-	noun, singular, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:252	n-s----n-	noun, singular, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:253	n-s----v-	noun, singular, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:254	n-s---cd-	noun, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:255	n-s---fa-	noun, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:256	n-s---fd-	noun, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:257	n-s---fg-	noun, singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:258	n-s---fn-	noun, singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:259	n-s---fv-	noun, singular, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:260	n-s---m--	noun, singular, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:261	n-s---ma-	noun, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:262	n-s---md-	noun, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:263	n-s---mg-	noun, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:264	n-s---mn-	noun, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:265	n-s---mv-	noun, singular, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:266	n-s---na-	noun, singular, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:267	n-s---nd-	noun, singular, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:268	n-s---ng-	noun, singular, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:269	n-s---nn-	noun, singular, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:270	n-s---nv-	noun, singular, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:271	p--------	pronoun
+urn:cite2:fufolio:partsOfSpeech.v1:272	p-----ma-	pronoun, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:273	p-d----a-	pronoun, dual, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:274	p-d----d-	pronoun, dual, dative
+urn:cite2:fufolio:partsOfSpeech.v1:275	p-d----g-	pronoun, dual, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:276	p-d----n-	pronoun, dual, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:277	p-d---fa-	pronoun, dual, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:278	p-d---fd-	pronoun, dual, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:279	p-d---fg-	pronoun, dual, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:280	p-d---fn-	pronoun, dual, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:281	p-d---ma-	pronoun, dual, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:282	p-d---md-	pronoun, dual, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:283	p-d---mg-	pronoun, dual, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:284	p-d---mn-	pronoun, dual, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:285	p-d---mv-	pronoun, dual, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:286	p-p----a-	pronoun, plural, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:287	p-p----d-	pronoun, plural, dative
+urn:cite2:fufolio:partsOfSpeech.v1:288	p-p----g-	pronoun, plural, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:289	p-p----n-	pronoun, plural, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:290	p-p---fa-	pronoun, plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:291	p-p---fd-	pronoun, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:292	p-p---fg-	pronoun, plural, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:293	p-p---fn-	pronoun, plural, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:294	p-p---ma-	pronoun, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:295	p-p---md-	pronoun, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:296	p-p---mg-	pronoun, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:297	p-p---mn-	pronoun, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:298	p-p---mv-	pronoun, plural, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:299	p-p---na-	pronoun, plural, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:300	p-p---nd-	pronoun, plural, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:301	p-p---ng-	pronoun, plural, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:302	p-p---nn-	pronoun, plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:303	p-p---nv-	pronoun, plural, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:304	p-s----a-	pronoun, singular, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:305	p-s----d-	pronoun, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:306	p-s----g-	pronoun, singular, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:307	p-s----n-	pronoun, singular, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:308	p-s----v-	pronoun, singular, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:309	p-s---fa-	pronoun, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:310	p-s---fd-	pronoun, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:311	p-s---fg-	pronoun, singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:312	p-s---fn-	pronoun, singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:313	p-s---fv-	pronoun, singular, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:314	p-s---ma-	pronoun, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:315	p-s---md-	pronoun, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:316	p-s---mg-	pronoun, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:317	p-s---mn-	pronoun, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:318	p-s---mv-	pronoun, singular, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:319	p-s---na-	pronoun, singular, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:320	p-s---nd-	pronoun, singular, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:321	p-s---ng-	pronoun, singular, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:322	p-s---nn-	pronoun, singular, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:323	p-s---nv-	pronoun, singular, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:324	p1p---fa-	pronoun, first, plural, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:325	p1p---fd-	pronoun, first, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:326	p1p---fg-	pronoun, first, plural, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:327	p1p---fn-	pronoun, first, plural, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:328	p1p---ma-	pronoun, first, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:329	p1p---md-	pronoun, first, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:330	p1p---mg-	pronoun, first, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:331	p1p---mn-	pronoun, first, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:332	p1p---mv-	pronoun, first, plural, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:333	p1s---fa-	pronoun, first, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:334	p1s---fd-	pronoun, first, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:335	p1s---fg-	pronoun, first, singular, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:336	p1s---fn-	pronoun, first, singular, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:337	p1s---ma-	pronoun, first, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:338	p1s---md-	pronoun, first, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:339	p1s---mg-	pronoun, first, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:340	p1s---mn-	pronoun, first, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:341	p2p----a-	pronoun, second, plural, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:342	p2p----d-	pronoun, second, plural, dative
+urn:cite2:fufolio:partsOfSpeech.v1:343	p2p----g-	pronoun, second, plural, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:344	p2p----n-	pronoun, second, plural, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:345	p2p---fd-	pronoun, second, plural, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:346	p2p---ma-	pronoun, second, plural, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:347	p2p---md-	pronoun, second, plural, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:348	p2p---mg-	pronoun, second, plural, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:349	p2p---mn-	pronoun, second, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:350	p2s----a-	pronoun, second, singular, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:351	p2s----d-	pronoun, second, singular, dative
+urn:cite2:fufolio:partsOfSpeech.v1:352	p2s----g-	pronoun, second, singular, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:353	p2s----n-	pronoun, second, singular, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:354	p2s---fa-	pronoun, second, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:355	p2s---fd-	pronoun, second, singular, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:356	p2s---m--	pronoun, second, singular, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:357	p2s---ma-	pronoun, second, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:358	p2s---md-	pronoun, second, singular, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:359	p2s---mg-	pronoun, second, singular, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:360	p2s---mn-	pronoun, second, singular, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:361	p3s---fa-	pronoun, third, singular, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:362	p3s---ma-	pronoun, third, singular, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:363	r--------	preposition
+urn:cite2:fufolio:partsOfSpeech.v1:364	r-s---fv-	preposition, singular, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:365	u--------	punctuation
+urn:cite2:fufolio:partsOfSpeech.v1:366	v--------	verb
+urn:cite2:fufolio:partsOfSpeech.v1:367	v---na---	verb, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:368	v---ne---	verb, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:369	v---p----	verb, participle
+urn:cite2:fufolio:partsOfSpeech.v1:370	v--amm---	verb, aorist, imperative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:371	v--an----	verb, aorist, infinitive
+urn:cite2:fufolio:partsOfSpeech.v1:372	v--ana---	verb, aorist, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:373	v--ane---	verb, aorist, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:374	v--anm---	verb, aorist, infinitive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:375	v--anp---	verb, aorist, infinitive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:376	v--fn----	verb, future, infinitive
+urn:cite2:fufolio:partsOfSpeech.v1:377	v--fna---	verb, future, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:378	v--fne---	verb, future, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:379	v--fnm---	verb, future, infinitive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:380	v--fnp---	verb, future, infinitive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:381	v--pia---	verb, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:382	v--pie---	verb, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:383	v--pn----	verb, present, infinitive
+urn:cite2:fufolio:partsOfSpeech.v1:384	v--pna---	verb, present, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:385	v--pnd---	verb, present, infinitive, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:386	v--pne---	verb, present, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:387	v--pnp---	verb, present, infinitive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:388	v--pp-mg-	verb, present, participle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:389	v--ppamg-	verb, present, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:390	v--ppamn-	verb, present, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:391	v--ppefa-	verb, present, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:392	v--ppefn-	verb, present, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:393	v--ppemn-	verb, present, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:394	v--rn----	verb, perfect, infinitive
+urn:cite2:fufolio:partsOfSpeech.v1:395	v--rna---	verb, perfect, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:396	v--rne---	verb, perfect, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:397	v--rnp---	verb, perfect, infinitive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:398	v--rpenn-	verb, perfect, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:399	v--tna---	verb, future perfect, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:400	v--tne---	verb, future perfect, infinitive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:401	v-dapafd-	verb, dual, aorist, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:402	v-dapafn-	verb, dual, aorist, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:403	v-dapama-	verb, dual, aorist, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:404	v-dapamg-	verb, dual, aorist, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:405	v-dapamn-	verb, dual, aorist, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:406	v-dapemn-	verb, dual, aorist, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:407	v-dapmfn-	verb, dual, aorist, participle, middle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:408	v-dapmma-	verb, dual, aorist, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:409	v-dapmmn-	verb, dual, aorist, participle, middle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:410	v-dapmnn-	verb, dual, aorist, participle, middle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:411	v-dappfa-	verb, dual, aorist, participle, passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:412	v-dappfn-	verb, dual, aorist, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:413	v-dappma-	verb, dual, aorist, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:414	v-dappmn-	verb, dual, aorist, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:415	v-dfpamn-	verb, dual, future, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:416	v-dppafd-	verb, dual, present, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:417	v-dppafg-	verb, dual, present, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:418	v-dppafn-	verb, dual, present, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:419	v-dppama-	verb, dual, present, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:420	v-dppamg-	verb, dual, present, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:421	v-dppamn-	verb, dual, present, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:422	v-dppana-	verb, dual, present, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:423	v-dppann-	verb, dual, present, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:424	v-dppefn-	verb, dual, present, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:425	v-dppema-	verb, dual, present, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:426	v-dppemd-	verb, dual, present, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:427	v-dppemg-	verb, dual, present, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:428	v-dppemn-	verb, dual, present, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:429	v-dpppmn-	verb, dual, present, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:430	v-drpama-	verb, dual, perfect, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:431	v-drpamd-	verb, dual, perfect, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:432	v-drpamg-	verb, dual, perfect, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:433	v-drpamn-	verb, dual, perfect, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:434	v-drpefn-	verb, dual, perfect, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:435	v-drpemn-	verb, dual, perfect, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:436	v-p-pmma-	verb, plural, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:437	v-pana---	verb, plural, aorist, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:438	v-pap-fn-	verb, plural, aorist, participle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:439	v-pap-mn-	verb, plural, aorist, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:440	v-papa-n-	verb, plural, aorist, participle, active, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:441	v-papafa-	verb, plural, aorist, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:442	v-papafd-	verb, plural, aorist, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:443	v-papafg-	verb, plural, aorist, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:444	v-papafn-	verb, plural, aorist, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:445	v-papafv-	verb, plural, aorist, participle, active, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:446	v-papama-	verb, plural, aorist, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:447	v-papamd-	verb, plural, aorist, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:448	v-papamg-	verb, plural, aorist, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:449	v-papamn-	verb, plural, aorist, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:450	v-papamv-	verb, plural, aorist, participle, active, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:451	v-papana-	verb, plural, aorist, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:452	v-papand-	verb, plural, aorist, participle, active, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:453	v-papang-	verb, plural, aorist, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:454	v-papann-	verb, plural, aorist, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:455	v-papefa-	verb, plural, aorist, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:456	v-papefg-	verb, plural, aorist, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:457	v-papefn-	verb, plural, aorist, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:458	v-papema-	verb, plural, aorist, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:459	v-papemg-	verb, plural, aorist, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:460	v-papemn-	verb, plural, aorist, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:461	v-papena-	verb, plural, aorist, participle, medio-passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:462	v-papeng-	verb, plural, aorist, participle, medio-passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:463	v-papmfa-	verb, plural, aorist, participle, middle, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:464	v-papmfd-	verb, plural, aorist, participle, middle, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:465	v-papmfg-	verb, plural, aorist, participle, middle, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:466	v-papmfn-	verb, plural, aorist, participle, middle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:467	v-papmfv-	verb, plural, aorist, participle, middle, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:468	v-papmma-	verb, plural, aorist, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:469	v-papmmd-	verb, plural, aorist, participle, middle, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:470	v-papmmg-	verb, plural, aorist, participle, middle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:471	v-papmmn-	verb, plural, aorist, participle, middle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:472	v-papmna-	verb, plural, aorist, participle, middle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:473	v-papmng-	verb, plural, aorist, participle, middle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:474	v-papmnn-	verb, plural, aorist, participle, middle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:475	v-pappfa-	verb, plural, aorist, participle, passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:476	v-pappfd-	verb, plural, aorist, participle, passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:477	v-pappfg-	verb, plural, aorist, participle, passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:478	v-pappfn-	verb, plural, aorist, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:479	v-pappma-	verb, plural, aorist, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:480	v-pappmd-	verb, plural, aorist, participle, passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:481	v-pappmg-	verb, plural, aorist, participle, passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:482	v-pappmn-	verb, plural, aorist, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:483	v-pappna-	verb, plural, aorist, participle, passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:484	v-pappnd-	verb, plural, aorist, participle, passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:485	v-pappng-	verb, plural, aorist, participle, passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:486	v-pappnn-	verb, plural, aorist, participle, passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:487	v-pfp-fd-	verb, plural, future, participle, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:488	v-pfp-ma-	verb, plural, future, participle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:489	v-pfp-md-	verb, plural, future, participle, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:490	v-pfpafa-	verb, plural, future, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:491	v-pfpafn-	verb, plural, future, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:492	v-pfpama-	verb, plural, future, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:493	v-pfpamd-	verb, plural, future, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:494	v-pfpamg-	verb, plural, future, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:495	v-pfpamn-	verb, plural, future, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:496	v-pfpema-	verb, plural, future, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:497	v-pfpemn-	verb, plural, future, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:498	v-pfpmfa-	verb, plural, future, participle, middle, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:499	v-pfpmfd-	verb, plural, future, participle, middle, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:500	v-pfpmfg-	verb, plural, future, participle, middle, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:501	v-pfpmfn-	verb, plural, future, participle, middle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:502	v-pfpmma-	verb, plural, future, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:503	v-pfpmmd-	verb, plural, future, participle, middle, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:504	v-pfpmmg-	verb, plural, future, participle, middle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:505	v-pfpmmn-	verb, plural, future, participle, middle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:506	v-pfpmna-	verb, plural, future, participle, middle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:507	v-pfpmnd-	verb, plural, future, participle, middle, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:508	v-pfpmng-	verb, plural, future, participle, middle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:509	v-pfpmnn-	verb, plural, future, participle, middle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:510	v-pfppmn-	verb, plural, future, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:511	v-ppgamg-	verb, plural, present, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:512	v-ppmang-	verb, plural, present, imperative, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:513	v-ppp-ma-	verb, plural, present, participle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:514	v-ppp-mg-	verb, plural, present, participle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:515	v-ppp-mn-	verb, plural, present, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:516	v-ppp-mv-	verb, plural, present, participle, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:517	v-ppp-ng-	verb, plural, present, participle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:518	v-pppafa-	verb, plural, present, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:519	v-pppafd-	verb, plural, present, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:520	v-pppafg-	verb, plural, present, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:521	v-pppafn-	verb, plural, present, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:522	v-pppafv-	verb, plural, present, participle, active, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:523	v-pppama-	verb, plural, present, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:524	v-pppamd-	verb, plural, present, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:525	v-pppamg-	verb, plural, present, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:526	v-pppamn-	verb, plural, present, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:527	v-pppamv-	verb, plural, present, participle, active, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:528	v-pppana-	verb, plural, present, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:529	v-pppand-	verb, plural, present, participle, active, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:530	v-pppang-	verb, plural, present, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:531	v-pppann-	verb, plural, present, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:532	v-pppefa-	verb, plural, present, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:533	v-pppefd-	verb, plural, present, participle, medio-passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:534	v-pppefg-	verb, plural, present, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:535	v-pppefn-	verb, plural, present, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:536	v-pppefv-	verb, plural, present, participle, medio-passive, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:537	v-pppema-	verb, plural, present, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:538	v-pppemd-	verb, plural, present, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:539	v-pppemg-	verb, plural, present, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:540	v-pppemn-	verb, plural, present, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:541	v-pppemv-	verb, plural, present, participle, medio-passive, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:542	v-pppena-	verb, plural, present, participle, medio-passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:543	v-pppend-	verb, plural, present, participle, medio-passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:544	v-pppeng-	verb, plural, present, participle, medio-passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:545	v-pppenn-	verb, plural, present, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:546	v-ppppfg-	verb, plural, present, participle, passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:547	v-ppppfn-	verb, plural, present, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:548	v-ppppma-	verb, plural, present, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:549	v-ppppmd-	verb, plural, present, participle, passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:550	v-ppppmg-	verb, plural, present, participle, passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:551	v-ppppmn-	verb, plural, present, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:552	v-ppppng-	verb, plural, present, participle, passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:553	v-prp-fn-	verb, plural, perfect, participle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:554	v-prp-mn-	verb, plural, perfect, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:555	v-prp-nd-	verb, plural, perfect, participle, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:556	v-prp-nn-	verb, plural, perfect, participle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:557	v-prpafa-	verb, plural, perfect, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:558	v-prpafd-	verb, plural, perfect, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:559	v-prpafg-	verb, plural, perfect, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:560	v-prpafn-	verb, plural, perfect, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:561	v-prpama-	verb, plural, perfect, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:562	v-prpamd-	verb, plural, perfect, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:563	v-prpamg-	verb, plural, perfect, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:564	v-prpamn-	verb, plural, perfect, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:565	v-prpana-	verb, plural, perfect, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:566	v-prpand-	verb, plural, perfect, participle, active, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:567	v-prpang-	verb, plural, perfect, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:568	v-prpann-	verb, plural, perfect, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:569	v-prpefa-	verb, plural, perfect, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:570	v-prpefd-	verb, plural, perfect, participle, medio-passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:571	v-prpefg-	verb, plural, perfect, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:572	v-prpefn-	verb, plural, perfect, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:573	v-prpema-	verb, plural, perfect, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:574	v-prpemd-	verb, plural, perfect, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:575	v-prpemg-	verb, plural, perfect, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:576	v-prpemn-	verb, plural, perfect, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:577	v-prpena-	verb, plural, perfect, participle, medio-passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:578	v-prpend-	verb, plural, perfect, participle, medio-passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:579	v-prpeng-	verb, plural, perfect, participle, medio-passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:580	v-prpenn-	verb, plural, perfect, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:581	v-prppfn-	verb, plural, perfect, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:582	v-prppmn-	verb, plural, perfect, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:583	v-prppnn-	verb, plural, perfect, participle, passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:584	v-s-pafd-	verb, singular, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:585	v-sagamn-	verb, singular, aorist, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:586	v-sagpnd-	verb, singular, aorist, passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:587	v-saiamn-	verb, singular, aorist, indicative, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:588	v-samp---	verb, singular, aorist, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:589	v-sap-fn-	verb, singular, aorist, participle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:590	v-sap-ma-	verb, singular, aorist, participle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:591	v-sap-mg-	verb, singular, aorist, participle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:592	v-sap-mn-	verb, singular, aorist, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:593	v-sap-ng-	verb, singular, aorist, participle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:594	v-sapa-a-	verb, singular, aorist, participle, active, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:595	v-sapafa-	verb, singular, aorist, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:596	v-sapafd-	verb, singular, aorist, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:597	v-sapafg-	verb, singular, aorist, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:598	v-sapafn-	verb, singular, aorist, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:599	v-sapafv-	verb, singular, aorist, participle, active, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:600	v-sapama-	verb, singular, aorist, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:601	v-sapamd-	verb, singular, aorist, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:602	v-sapamg-	verb, singular, aorist, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:603	v-sapamn-	verb, singular, aorist, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:604	v-sapamv-	verb, singular, aorist, participle, active, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:605	v-sapana-	verb, singular, aorist, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:606	v-sapang-	verb, singular, aorist, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:607	v-sapann-	verb, singular, aorist, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:608	v-sapanv-	verb, singular, aorist, participle, active, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:609	v-sapefa-	verb, singular, aorist, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:610	v-sapefn-	verb, singular, aorist, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:611	v-sapema-	verb, singular, aorist, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:612	v-sapemd-	verb, singular, aorist, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:613	v-sapemg-	verb, singular, aorist, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:614	v-sapemn-	verb, singular, aorist, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:615	v-sapenn-	verb, singular, aorist, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:616	v-sapmfa-	verb, singular, aorist, participle, middle, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:617	v-sapmfd-	verb, singular, aorist, participle, middle, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:618	v-sapmfg-	verb, singular, aorist, participle, middle, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:619	v-sapmfn-	verb, singular, aorist, participle, middle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:620	v-sapmma-	verb, singular, aorist, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:621	v-sapmmd-	verb, singular, aorist, participle, middle, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:622	v-sapmmg-	verb, singular, aorist, participle, middle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:623	v-sapmmn-	verb, singular, aorist, participle, middle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:624	v-sapmna-	verb, singular, aorist, participle, middle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:625	v-sapmng-	verb, singular, aorist, participle, middle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:626	v-sapmnn-	verb, singular, aorist, participle, middle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:627	v-sappfa-	verb, singular, aorist, participle, passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:628	v-sappfd-	verb, singular, aorist, participle, passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:629	v-sappfg-	verb, singular, aorist, participle, passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:630	v-sappfn-	verb, singular, aorist, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:631	v-sappma-	verb, singular, aorist, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:632	v-sappmd-	verb, singular, aorist, participle, passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:633	v-sappmg-	verb, singular, aorist, participle, passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:634	v-sappmn-	verb, singular, aorist, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:635	v-sappmv-	verb, singular, aorist, participle, passive, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:636	v-sappna-	verb, singular, aorist, participle, passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:637	v-sappnd-	verb, singular, aorist, participle, passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:638	v-sappng-	verb, singular, aorist, participle, passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:639	v-sappnn-	verb, singular, aorist, participle, passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:640	v-sappnv-	verb, singular, aorist, participle, passive, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:641	v-sfp-ma-	verb, singular, future, participle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:642	v-sfp-mg-	verb, singular, future, participle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:643	v-sfp-mn-	verb, singular, future, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:644	v-sfpafa-	verb, singular, future, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:645	v-sfpafd-	verb, singular, future, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:646	v-sfpafg-	verb, singular, future, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:647	v-sfpafn-	verb, singular, future, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:648	v-sfpama-	verb, singular, future, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:649	v-sfpamd-	verb, singular, future, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:650	v-sfpamg-	verb, singular, future, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:651	v-sfpamn-	verb, singular, future, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:652	v-sfpann-	verb, singular, future, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:653	v-sfpefg-	verb, singular, future, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:654	v-sfpema-	verb, singular, future, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:655	v-sfpemn-	verb, singular, future, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:656	v-sfpmfa-	verb, singular, future, participle, middle, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:657	v-sfpmfd-	verb, singular, future, participle, middle, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:658	v-sfpmfg-	verb, singular, future, participle, middle, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:659	v-sfpmfn-	verb, singular, future, participle, middle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:660	v-sfpmma-	verb, singular, future, participle, middle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:661	v-sfpmmd-	verb, singular, future, participle, middle, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:662	v-sfpmmg-	verb, singular, future, participle, middle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:663	v-sfpmmn-	verb, singular, future, participle, middle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:664	v-sfpmna-	verb, singular, future, participle, middle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:665	v-sfpmng-	verb, singular, future, participle, middle, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:666	v-sfpmnn-	verb, singular, future, participle, middle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:667	v-sfppfa-	verb, singular, future, participle, passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:668	v-sfppfg-	verb, singular, future, participle, passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:669	v-sfppma-	verb, singular, future, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:670	v-sfppmn-	verb, singular, future, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:671	v-slpemn-	verb, singular, plusquamperfect, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:672	v-spgafn-	verb, singular, present, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:673	v-spgamn-	verb, singular, present, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:674	v-spiamn-	verb, singular, present, indicative, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:675	v-spiemn-	verb, singular, present, indicative, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:676	v-spna---	verb, singular, present, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:677	v-spp-fn-	verb, singular, present, participle, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:678	v-spp-ma-	verb, singular, present, participle, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:679	v-spp-mg-	verb, singular, present, participle, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:680	v-spp-mn-	verb, singular, present, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:681	v-spp-na-	verb, singular, present, participle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:682	v-spp-nn-	verb, singular, present, participle, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:683	v-sppa---	verb, singular, present, participle, active
+urn:cite2:fufolio:partsOfSpeech.v1:684	v-sppafa-	verb, singular, present, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:685	v-sppafd-	verb, singular, present, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:686	v-sppafg-	verb, singular, present, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:687	v-sppafn-	verb, singular, present, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:688	v-sppafv-	verb, singular, present, participle, active, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:689	v-sppam--	verb, singular, present, participle, active, masculine
+urn:cite2:fufolio:partsOfSpeech.v1:690	v-sppama-	verb, singular, present, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:691	v-sppamd-	verb, singular, present, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:692	v-sppamg-	verb, singular, present, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:693	v-sppamn-	verb, singular, present, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:694	v-sppamv-	verb, singular, present, participle, active, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:695	v-sppana-	verb, singular, present, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:696	v-sppand-	verb, singular, present, participle, active, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:697	v-sppang-	verb, singular, present, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:698	v-sppann-	verb, singular, present, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:699	v-sppanv-	verb, singular, present, participle, active, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:700	v-sppefa-	verb, singular, present, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:701	v-sppefd-	verb, singular, present, participle, medio-passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:702	v-sppefg-	verb, singular, present, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:703	v-sppefn-	verb, singular, present, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:704	v-sppema-	verb, singular, present, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:705	v-sppemd-	verb, singular, present, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:706	v-sppemg-	verb, singular, present, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:707	v-sppemn-	verb, singular, present, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:708	v-sppemv-	verb, singular, present, participle, medio-passive, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:709	v-sppena-	verb, singular, present, participle, medio-passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:710	v-sppend-	verb, singular, present, participle, medio-passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:711	v-sppeng-	verb, singular, present, participle, medio-passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:712	v-sppenn-	verb, singular, present, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:713	v-sppenv-	verb, singular, present, participle, medio-passive, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:714	v-spppfa-	verb, singular, present, participle, passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:715	v-spppfd-	verb, singular, present, participle, passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:716	v-spppfg-	verb, singular, present, participle, passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:717	v-spppfn-	verb, singular, present, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:718	v-spppma-	verb, singular, present, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:719	v-spppmd-	verb, singular, present, participle, passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:720	v-spppmn-	verb, singular, present, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:721	v-srp-mn-	verb, singular, perfect, participle, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:722	v-srp-na-	verb, singular, perfect, participle, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:723	v-srpafa-	verb, singular, perfect, participle, active, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:724	v-srpafd-	verb, singular, perfect, participle, active, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:725	v-srpafg-	verb, singular, perfect, participle, active, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:726	v-srpafn-	verb, singular, perfect, participle, active, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:727	v-srpama-	verb, singular, perfect, participle, active, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:728	v-srpamd-	verb, singular, perfect, participle, active, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:729	v-srpamg-	verb, singular, perfect, participle, active, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:730	v-srpamn-	verb, singular, perfect, participle, active, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:731	v-srpamv-	verb, singular, perfect, participle, active, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:732	v-srpana-	verb, singular, perfect, participle, active, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:733	v-srpand-	verb, singular, perfect, participle, active, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:734	v-srpang-	verb, singular, perfect, participle, active, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:735	v-srpann-	verb, singular, perfect, participle, active, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:736	v-srpefa-	verb, singular, perfect, participle, medio-passive, feminine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:737	v-srpefd-	verb, singular, perfect, participle, medio-passive, feminine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:738	v-srpefg-	verb, singular, perfect, participle, medio-passive, feminine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:739	v-srpefn-	verb, singular, perfect, participle, medio-passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:740	v-srpefv-	verb, singular, perfect, participle, medio-passive, feminine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:741	v-srpema-	verb, singular, perfect, participle, medio-passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:742	v-srpemd-	verb, singular, perfect, participle, medio-passive, masculine, dative
+urn:cite2:fufolio:partsOfSpeech.v1:743	v-srpemg-	verb, singular, perfect, participle, medio-passive, masculine, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:744	v-srpemn-	verb, singular, perfect, participle, medio-passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:745	v-srpemv-	verb, singular, perfect, participle, medio-passive, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:746	v-srpena-	verb, singular, perfect, participle, medio-passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:747	v-srpend-	verb, singular, perfect, participle, medio-passive, neuter, dative
+urn:cite2:fufolio:partsOfSpeech.v1:748	v-srpeng-	verb, singular, perfect, participle, medio-passive, neuter, genitive
+urn:cite2:fufolio:partsOfSpeech.v1:749	v-srpenn-	verb, singular, perfect, participle, medio-passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:750	v-srpenv-	verb, singular, perfect, participle, medio-passive, neuter, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:751	v-srppfn-	verb, singular, perfect, participle, passive, feminine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:752	v-srppma-	verb, singular, perfect, participle, passive, masculine, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:753	v-srppmn-	verb, singular, perfect, participle, passive, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:754	v-srppmv-	verb, singular, perfect, participle, passive, masculine, vocative
+urn:cite2:fufolio:partsOfSpeech.v1:755	v-srppna-	verb, singular, perfect, participle, passive, neuter, accusative
+urn:cite2:fufolio:partsOfSpeech.v1:756	v-srppnn-	verb, singular, perfect, participle, passive, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:757	v1-iia---	verb, first, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:758	v1-pia---	verb, first, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:759	v1dasa---	verb, first, dual, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:760	v1drie---	verb, first, dual, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:761	v1p-sa---	verb, first, plural, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:762	v1pai----	verb, first, plural, aorist, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:763	v1paia---	verb, first, plural, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:764	v1paie---	verb, first, plural, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:765	v1paim---	verb, first, plural, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:766	v1paip---	verb, first, plural, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:767	v1pao----	verb, first, plural, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:768	v1paoa---	verb, first, plural, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:769	v1paoe---	verb, first, plural, aorist, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:770	v1paom---	verb, first, plural, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:771	v1paop---	verb, first, plural, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:772	v1pas----	verb, first, plural, aorist, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:773	v1pasa---	verb, first, plural, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:774	v1pase---	verb, first, plural, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:775	v1pasm---	verb, first, plural, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:776	v1pasp---	verb, first, plural, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:777	v1pfi----	verb, first, plural, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:778	v1pfia---	verb, first, plural, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:779	v1pfie---	verb, first, plural, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:780	v1pfim---	verb, first, plural, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:781	v1pfimf--	verb, first, plural, future, indicative, middle, feminine
+urn:cite2:fufolio:partsOfSpeech.v1:782	v1pfip---	verb, first, plural, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:783	v1pfoa---	verb, first, plural, future, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:784	v1pfom---	verb, first, plural, future, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:785	v1piia---	verb, first, plural, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:786	v1piie---	verb, first, plural, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:787	v1pima---	verb, first, plural, imperfect, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:788	v1pina---	verb, first, plural, imperfect, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:789	v1pli----	verb, first, plural, plusquamperfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:790	v1plia---	verb, first, plural, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:791	v1plie---	verb, first, plural, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:792	v1plim---	verb, first, plural, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:793	v1ppi----	verb, first, plural, present, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:794	v1ppia---	verb, first, plural, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:795	v1ppid---	verb, first, plural, present, indicative, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:796	v1ppie---	verb, first, plural, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:797	v1ppip---	verb, first, plural, present, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:798	v1ppoa---	verb, first, plural, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:799	v1ppoe---	verb, first, plural, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:800	v1ppsa---	verb, first, plural, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:801	v1ppse---	verb, first, plural, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:802	v1pria---	verb, first, plural, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:803	v1prie---	verb, first, plural, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:804	v1prsa---	verb, first, plural, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:805	v1prse---	verb, first, plural, perfect, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:806	v1ptia---	verb, first, plural, future perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:807	v1ptie---	verb, first, plural, future perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:808	v1s-sa---	verb, first, singular, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:809	v1sa-a---	verb, first, singular, aorist, active
+urn:cite2:fufolio:partsOfSpeech.v1:810	v1saia---	verb, first, singular, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:811	v1saie---	verb, first, singular, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:812	v1saim---	verb, first, singular, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:813	v1saip---	verb, first, singular, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:814	v1sao----	verb, first, singular, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:815	v1saoa---	verb, first, singular, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:816	v1saoe---	verb, first, singular, aorist, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:817	v1saom---	verb, first, singular, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:818	v1saop---	verb, first, singular, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:819	v1sas----	verb, first, singular, aorist, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:820	v1sasa---	verb, first, singular, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:821	v1sase---	verb, first, singular, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:822	v1sasm---	verb, first, singular, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:823	v1sasp---	verb, first, singular, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:824	v1sfi----	verb, first, singular, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:825	v1sfia---	verb, first, singular, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:826	v1sfie---	verb, first, singular, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:827	v1sfim---	verb, first, singular, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:828	v1sfimf--	verb, first, singular, future, indicative, middle, feminine
+urn:cite2:fufolio:partsOfSpeech.v1:829	v1sfip---	verb, first, singular, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:830	v1sfoa---	verb, first, singular, future, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:831	v1sfom---	verb, first, singular, future, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:832	v1siia---	verb, first, singular, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:833	v1siie---	verb, first, singular, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:834	v1slia---	verb, first, singular, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:835	v1slie---	verb, first, singular, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:836	v1slim---	verb, first, singular, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:837	v1spi----	verb, first, singular, present, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:838	v1spia---	verb, first, singular, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:839	v1spie---	verb, first, singular, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:840	v1spip---	verb, first, singular, present, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:841	v1spoa---	verb, first, singular, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:842	v1spoe---	verb, first, singular, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:843	v1spsa---	verb, first, singular, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:844	v1spse---	verb, first, singular, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:845	v1spsp---	verb, first, singular, present, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:846	v1sria---	verb, first, singular, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:847	v1srie---	verb, first, singular, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:848	v1srip---	verb, first, singular, perfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:849	v1sroa---	verb, first, singular, perfect, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:850	v1sroe---	verb, first, singular, perfect, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:851	v1srsa---	verb, first, singular, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:852	v1stie---	verb, first, singular, future perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:853	v1stim---	verb, first, singular, future perfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:854	v2-pma---	verb, second, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:855	v2daia---	verb, second, dual, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:856	v2daim---	verb, second, dual, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:857	v2dama---	verb, second, dual, aorist, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:858	v2dasa---	verb, second, dual, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:859	v2dase---	verb, second, dual, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:860	v2dasp---	verb, second, dual, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:861	v2dfi----	verb, second, dual, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:862	v2dfia---	verb, second, dual, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:863	v2dfim---	verb, second, dual, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:864	v2diia---	verb, second, dual, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:865	v2diie---	verb, second, dual, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:866	v2dlie---	verb, second, dual, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:867	v2dpia---	verb, second, dual, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:868	v2dpie---	verb, second, dual, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:869	v2dpma---	verb, second, dual, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:870	v2dpme---	verb, second, dual, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:871	v2dpsa---	verb, second, dual, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:872	v2dpse---	verb, second, dual, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:873	v2dria---	verb, second, dual, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:874	v2drma---	verb, second, dual, perfect, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:875	v2p-im---	verb, second, plural, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:876	v2paia---	verb, second, plural, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:877	v2paie---	verb, second, plural, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:878	v2paim---	verb, second, plural, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:879	v2paip---	verb, second, plural, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:880	v2pam----	verb, second, plural, aorist, imperative
+urn:cite2:fufolio:partsOfSpeech.v1:881	v2pama---	verb, second, plural, aorist, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:882	v2pame---	verb, second, plural, aorist, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:883	v2pamm---	verb, second, plural, aorist, imperative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:884	v2pamp---	verb, second, plural, aorist, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:885	v2pao----	verb, second, plural, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:886	v2paoa---	verb, second, plural, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:887	v2paom---	verb, second, plural, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:888	v2paop---	verb, second, plural, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:889	v2pasa---	verb, second, plural, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:890	v2pase---	verb, second, plural, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:891	v2pasm---	verb, second, plural, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:892	v2pasp---	verb, second, plural, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:893	v2pfi----	verb, second, plural, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:894	v2pfia---	verb, second, plural, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:895	v2pfie---	verb, second, plural, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:896	v2pfim---	verb, second, plural, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:897	v2pfip---	verb, second, plural, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:898	v2piia---	verb, second, plural, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:899	v2piie---	verb, second, plural, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:900	v2ppi----	verb, second, plural, present, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:901	v2ppia---	verb, second, plural, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:902	v2ppie---	verb, second, plural, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:903	v2ppma---	verb, second, plural, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:904	v2ppme---	verb, second, plural, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:905	v2ppoa---	verb, second, plural, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:906	v2ppoe---	verb, second, plural, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:907	v2ppsa---	verb, second, plural, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:908	v2ppse---	verb, second, plural, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:909	v2pria---	verb, second, plural, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:910	v2prie---	verb, second, plural, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:911	v2prma---	verb, second, plural, perfect, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:912	v2prme---	verb, second, plural, perfect, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:913	v2prmp---	verb, second, plural, perfect, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:914	v2proa---	verb, second, plural, perfect, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:915	v2prsa---	verb, second, plural, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:916	v2s-i----	verb, second, singular, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:917	v2s-sa---	verb, second, singular, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:918	v2sa-----	verb, second, singular, aorist
+urn:cite2:fufolio:partsOfSpeech.v1:919	v2sai----	verb, second, singular, aorist, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:920	v2saia---	verb, second, singular, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:921	v2saie---	verb, second, singular, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:922	v2saim---	verb, second, singular, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:923	v2saip---	verb, second, singular, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:924	v2sam----	verb, second, singular, aorist, imperative
+urn:cite2:fufolio:partsOfSpeech.v1:925	v2sama---	verb, second, singular, aorist, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:926	v2same---	verb, second, singular, aorist, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:927	v2samm---	verb, second, singular, aorist, imperative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:928	v2samp---	verb, second, singular, aorist, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:929	v2sao----	verb, second, singular, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:930	v2saoa---	verb, second, singular, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:931	v2saoe---	verb, second, singular, aorist, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:932	v2saom---	verb, second, singular, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:933	v2saop---	verb, second, singular, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:934	v2sas----	verb, second, singular, aorist, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:935	v2sasa---	verb, second, singular, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:936	v2sase---	verb, second, singular, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:937	v2sasm---	verb, second, singular, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:938	v2sasp---	verb, second, singular, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:939	v2sfi----	verb, second, singular, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:940	v2sfia---	verb, second, singular, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:941	v2sfie---	verb, second, singular, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:942	v2sfim---	verb, second, singular, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:943	v2sfip---	verb, second, singular, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:944	v2sfoa---	verb, second, singular, future, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:945	v2siia---	verb, second, singular, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:946	v2siie---	verb, second, singular, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:947	v2siip---	verb, second, singular, imperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:948	v2slia---	verb, second, singular, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:949	v2slie---	verb, second, singular, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:950	v2slim---	verb, second, singular, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:951	v2sp-a---	verb, second, singular, present, active
+urn:cite2:fufolio:partsOfSpeech.v1:952	v2spia---	verb, second, singular, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:953	v2spie---	verb, second, singular, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:954	v2spm----	verb, second, singular, present, imperative
+urn:cite2:fufolio:partsOfSpeech.v1:955	v2spma---	verb, second, singular, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:956	v2spme---	verb, second, singular, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:957	v2spoa---	verb, second, singular, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:958	v2spoe---	verb, second, singular, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:959	v2spop---	verb, second, singular, present, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:960	v2spsa---	verb, second, singular, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:961	v2spse---	verb, second, singular, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:962	v2sria---	verb, second, singular, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:963	v2srie---	verb, second, singular, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:964	v2srip---	verb, second, singular, perfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:965	v2srma---	verb, second, singular, perfect, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:966	v2srme---	verb, second, singular, perfect, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:967	v2sroa---	verb, second, singular, perfect, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:968	v2srsa---	verb, second, singular, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:969	v2stia---	verb, second, singular, future perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:970	v2stie---	verb, second, singular, future perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:971	v3-aia---	verb, third, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:972	v3-iie---	verb, third, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:973	v3-roe---	verb, third, perfect, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:974	v3dai----	verb, third, dual, aorist, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:975	v3daia---	verb, third, dual, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:976	v3daim---	verb, third, dual, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:977	v3daip---	verb, third, dual, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:978	v3daoa---	verb, third, dual, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:979	v3dasa---	verb, third, dual, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:980	v3dasp---	verb, third, dual, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:981	v3dfia---	verb, third, dual, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:982	v3dfim---	verb, third, dual, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:983	v3diia---	verb, third, dual, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:984	v3diie---	verb, third, dual, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:985	v3dlia---	verb, third, dual, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:986	v3dlie---	verb, third, dual, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:987	v3dlim---	verb, third, dual, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:988	v3dlip---	verb, third, dual, plusquamperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:989	v3dpia---	verb, third, dual, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:990	v3dpie---	verb, third, dual, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:991	v3dpma---	verb, third, dual, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:992	v3dpme---	verb, third, dual, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:993	v3dpsa---	verb, third, dual, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:994	v3dria---	verb, third, dual, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:995	v3pai----	verb, third, plural, aorist, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:996	v3paia---	verb, third, plural, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:997	v3paie---	verb, third, plural, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:998	v3paim---	verb, third, plural, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:999	v3paip---	verb, third, plural, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1000	v3pama---	verb, third, plural, aorist, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1001	v3pamm---	verb, third, plural, aorist, imperative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1002	v3pamp---	verb, third, plural, aorist, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1003	v3pao----	verb, third, plural, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:1004	v3paoa---	verb, third, plural, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1005	v3paoe---	verb, third, plural, aorist, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1006	v3paom---	verb, third, plural, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1007	v3paop---	verb, third, plural, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1008	v3pasa---	verb, third, plural, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1009	v3pase---	verb, third, plural, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1010	v3pasm---	verb, third, plural, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1011	v3pasp---	verb, third, plural, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1012	v3pfi----	verb, third, plural, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1013	v3pfia---	verb, third, plural, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1014	v3pfie---	verb, third, plural, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1015	v3pfim---	verb, third, plural, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1016	v3pfip---	verb, third, plural, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1017	v3pfoa---	verb, third, plural, future, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1018	v3pfom---	verb, third, plural, future, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1019	v3pii----	verb, third, plural, imperfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1020	v3piia---	verb, third, plural, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1021	v3piid---	verb, third, plural, imperfect, indicative, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:1022	v3piie---	verb, third, plural, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1023	v3piip---	verb, third, plural, imperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1024	v3pli----	verb, third, plural, plusquamperfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1025	v3plia---	verb, third, plural, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1026	v3plie---	verb, third, plural, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1027	v3plim---	verb, third, plural, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1028	v3plip---	verb, third, plural, plusquamperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1029	v3ppi----	verb, third, plural, present, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1030	v3ppia---	verb, third, plural, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1031	v3ppie---	verb, third, plural, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1032	v3ppip---	verb, third, plural, present, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1033	v3ppma---	verb, third, plural, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1034	v3ppme---	verb, third, plural, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1035	v3ppna---	verb, third, plural, present, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1036	v3ppoa---	verb, third, plural, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1037	v3ppoe---	verb, third, plural, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1038	v3pps----	verb, third, plural, present, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:1039	v3ppsa---	verb, third, plural, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1040	v3ppse---	verb, third, plural, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1041	v3pri----	verb, third, plural, perfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1042	v3pria---	verb, third, plural, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1043	v3prie---	verb, third, plural, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1044	v3prip---	verb, third, plural, perfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1045	v3prsa---	verb, third, plural, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1046	v3s------	verb, third, singular
+urn:cite2:fufolio:partsOfSpeech.v1:1047	v3s-ie---	verb, third, singular, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1048	v3s-sa---	verb, third, singular, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1049	v3sa-----	verb, third, singular, aorist
+urn:cite2:fufolio:partsOfSpeech.v1:1050	v3sai----	verb, third, singular, aorist, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1051	v3saia---	verb, third, singular, aorist, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1052	v3said---	verb, third, singular, aorist, indicative, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:1053	v3saie---	verb, third, singular, aorist, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1054	v3saim---	verb, third, singular, aorist, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1055	v3saip---	verb, third, singular, aorist, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1056	v3sama---	verb, third, singular, aorist, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1057	v3samm---	verb, third, singular, aorist, imperative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1058	v3samp---	verb, third, singular, aorist, imperative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1059	v3sana---	verb, third, singular, aorist, infinitive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1060	v3sao----	verb, third, singular, aorist, optative
+urn:cite2:fufolio:partsOfSpeech.v1:1061	v3saoa---	verb, third, singular, aorist, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1062	v3saoe---	verb, third, singular, aorist, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1063	v3saom---	verb, third, singular, aorist, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1064	v3saop---	verb, third, singular, aorist, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1065	v3sas----	verb, third, singular, aorist, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:1066	v3sasa---	verb, third, singular, aorist, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1067	v3sase---	verb, third, singular, aorist, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1068	v3sasm---	verb, third, singular, aorist, subjunctive, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1069	v3sasp---	verb, third, singular, aorist, subjunctive, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1070	v3sfi----	verb, third, singular, future, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1071	v3sfia---	verb, third, singular, future, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1072	v3sfie---	verb, third, singular, future, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1073	v3sfim---	verb, third, singular, future, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1074	v3sfip---	verb, third, singular, future, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1075	v3sfoa---	verb, third, singular, future, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1076	v3sfom---	verb, third, singular, future, optative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1077	v3sfop---	verb, third, singular, future, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1078	v3sii----	verb, third, singular, imperfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1079	v3siia---	verb, third, singular, imperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1080	v3siie---	verb, third, singular, imperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1081	v3siip---	verb, third, singular, imperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1082	v3sli----	verb, third, singular, plusquamperfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1083	v3slia---	verb, third, singular, plusquamperfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1084	v3slie---	verb, third, singular, plusquamperfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1085	v3slim---	verb, third, singular, plusquamperfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1086	v3slip---	verb, third, singular, plusquamperfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1087	v3spi----	verb, third, singular, present, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1088	v3spia---	verb, third, singular, present, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1089	v3spid---	verb, third, singular, present, indicative, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:1090	v3spie---	verb, third, singular, present, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1091	v3spip---	verb, third, singular, present, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1092	v3spm----	verb, third, singular, present, imperative
+urn:cite2:fufolio:partsOfSpeech.v1:1093	v3spma---	verb, third, singular, present, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1094	v3spme---	verb, third, singular, present, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1095	v3spo----	verb, third, singular, present, optative
+urn:cite2:fufolio:partsOfSpeech.v1:1096	v3spoa---	verb, third, singular, present, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1097	v3spod---	verb, third, singular, present, optative, deponens
+urn:cite2:fufolio:partsOfSpeech.v1:1098	v3spoe---	verb, third, singular, present, optative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1099	v3spop---	verb, third, singular, present, optative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1100	v3sps----	verb, third, singular, present, subjunctive
+urn:cite2:fufolio:partsOfSpeech.v1:1101	v3spsa---	verb, third, singular, present, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1102	v3spse---	verb, third, singular, present, subjunctive, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1103	v3sri----	verb, third, singular, perfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1104	v3sria---	verb, third, singular, perfect, indicative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1105	v3srie---	verb, third, singular, perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1106	v3srip---	verb, third, singular, perfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1107	v3srma---	verb, third, singular, perfect, imperative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1108	v3srme---	verb, third, singular, perfect, imperative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1109	v3sroa---	verb, third, singular, perfect, optative, active
+urn:cite2:fufolio:partsOfSpeech.v1:1110	v3srsa---	verb, third, singular, perfect, subjunctive, active
+urn:cite2:fufolio:partsOfSpeech.v1:1111	v3sti----	verb, third, singular, future perfect, indicative
+urn:cite2:fufolio:partsOfSpeech.v1:1112	v3stie---	verb, third, singular, future perfect, indicative, medio-passive
+urn:cite2:fufolio:partsOfSpeech.v1:1113	v3stim---	verb, third, singular, future perfect, indicative, middle
+urn:cite2:fufolio:partsOfSpeech.v1:1114	v3stip---	verb, third, singular, future perfect, indicative, passive
+urn:cite2:fufolio:partsOfSpeech.v1:1115	x--------	irregular
+urn:cite2:fufolio:partsOfSpeech.v1:1116	x-----n--	irregular, neuter
+urn:cite2:fufolio:partsOfSpeech.v1:1117	x-p----d-	irregular, plural, dative
+urn:cite2:fufolio:partsOfSpeech.v1:1118	x-p---mn-	irregular, plural, masculine, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:1119	x-p---nn-	irregular, plural, neuter, nominative
+urn:cite2:fufolio:partsOfSpeech.v1:1120	x-s---na-	irregular, singular, neuter, accusative
